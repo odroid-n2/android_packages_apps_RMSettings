@@ -17,4 +17,13 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <PreferenceCategory
+        android:key="abc_interface"
+        android:title="@string/abc_interface">
+
+        <PreferenceScreen
+            android:key="navigation_options"
+            android:fragment="com.abc.settings.NavbarSettings"
+            android:title="@string/navigationbar_settings_title" />
+    </PreferenceCategory>
 </PreferenceScreen>
