@@ -41,4 +41,5 @@
     <string name="color_default">Default</string>
 
     <string name="double_tap_sleep_navbar">Double tap to sleep on navbar</string>
+    <string name="swap_volume_buttons">Swap volume buttons rotation based</string>
 </resources>
