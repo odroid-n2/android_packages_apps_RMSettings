@@ -29,7 +29,7 @@ public class AbcSettings extends SettingsPreferenceFragment {
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
         addPreferencesFromResource(R.xml.abc_settings_main);
-        PreferenceScreen prefScreen = getPreferenceScreen();
+
     }
 
     @Override
