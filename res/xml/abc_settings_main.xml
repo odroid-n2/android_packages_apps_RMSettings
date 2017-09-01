@@ -26,4 +26,41 @@
             android:fragment="com.abc.settings.NavbarSettings"
             android:title="@string/navigationbar_settings_title" />
     </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="abc_sys"
+        android:title="@string/abc_sys">
+
+        <!-- <PreferenceScreen
+            android:key="abc_power_settings"
+            android:fragment="com.abc.settings.PowerSettings"
+        android:title="@string/power_settings_title"/>-->
+
+        <PreferenceScreen
+            android:key="abc_volumerocker_settings"
+            android:fragment="com.abc.settings.VolumeRockerSettings"
+            android:title="@string/volumerocker_settings_title"/>
+
+        <!-- <PreferenceScreen
+            android:key="abc_other_settings"
+            android:fragment="com.abc.settings.OtherSettings"
+        android:title="@string/other_settings_title"/>-->
+
+    </PreferenceCategory>
+
+    <!-- <PreferenceCategory
+        android:key="abc_leds"
+        android:title="@string/abc_leds" >
+
+        <PreferenceScreen
+                android:key="abc_charging_light"
+                android:fragment="com.abc.settings.batterylight.BatteryLightSettings"
+                android:title="@string/abc_battery_light_settings" />
+
+        <PreferenceScreen
+                android:key="abc_notification_light"
+                android:fragment="com.abc.settings.batterylight.NotificationLightSettings"
+                android:title="@string/abc_notification_light_settings" />
+
+    </PreferenceCategory>-->
 </PreferenceScreen>
