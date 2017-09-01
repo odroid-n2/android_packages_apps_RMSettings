@@ -46,4 +46,6 @@
     <string name="swap_volume_buttons">Swap volume buttons rotation based</string>
     <string name="volume_keys_control_media_stream_title">Volume keys control media volume</string>
     <string name="volume_keys_control_media_stream_summary">Volume panel will show media volume slider by default</string>
+
+    <string name="status_bar_quick_qs_pulldown">Pulldown statusbar from right side to show QS panel</string>
 </resources>
