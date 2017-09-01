@@ -31,12 +31,12 @@
             android:fragment="com.abc.settings.LockScreenSettings"
             android:title="@string/lockscreen_abc_settings_title"/>
 
-        <!-- <Preference
+        <Preference
             android:key="abc_notification_drawer_settings"
             android:fragment="com.abc.settings.NotificationDrawerSettings"
             android:title="@string/notification_drawer_settings_title"/>
 
-        <Preference
+        <!-- <Preference
             android:key="abc_statusbar_settings"
             android:fragment="com.abc.settings.StatusBarSettings"
             android:title="@string/statusbar_settings_title"/>
