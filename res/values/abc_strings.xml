@@ -48,4 +48,7 @@
     <string name="volume_keys_control_media_stream_summary">Volume panel will show media volume slider by default</string>
 
     <string name="status_bar_quick_qs_pulldown">Pulldown statusbar from right side to show QS panel</string>
+
+    <string name="volume_rocker_music_controls_title">Playback control</string>
+    <string name="volume_rocker_music_controls_summary">When the screen is off, long-pressing the volume keys will seek music tracks</string>
 </resources>
