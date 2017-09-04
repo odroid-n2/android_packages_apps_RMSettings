@@ -68,19 +68,19 @@
 
     </PreferenceCategory>
 
-    <!-- <PreferenceCategory
+    <PreferenceCategory
         android:key="abc_leds"
         android:title="@string/abc_leds" >
 
         <Preference
                 android:key="abc_charging_light"
-                android:fragment="com.abc.settings.batterylight.BatteryLightSettings"
+                android:fragment="com.abc.settings.BatteryLightSettings"
                 android:title="@string/abc_battery_light_settings" />
 
-        <Preference
+        <!-- <Preference
                 android:key="abc_notification_light"
                 android:fragment="com.abc.settings.batterylight.NotificationLightSettings"
-                android:title="@string/abc_notification_light_settings" />
+                android:title="@string/abc_notification_light_settings" />-->
 
-    </PreferenceCategory>-->
+    </PreferenceCategory>
 </PreferenceScreen>

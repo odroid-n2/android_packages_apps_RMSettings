@@ -17,6 +17,8 @@
 package com.abc.settings;
 
 import android.os.Bundle;
+import android.support.v7.preference.Preference;
+import android.support.v7.preference.PreferenceCategory;
 import android.support.v7.preference.PreferenceScreen;
 
 import com.android.internal.logging.nano.MetricsProto;
@@ -25,11 +27,25 @@ import com.android.settings.SettingsPreferenceFragment;
 
 public class AbcSettings extends SettingsPreferenceFragment {
 
+    private PreferenceCategory mLedsCategory;
+    private Preference mChargingLeds;
+
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
         addPreferencesFromResource(R.xml.abc_settings_main);
+        PreferenceScreen prefSet = getPreferenceScreen();
 
+        mLedsCategory = (PreferenceCategory) findPreference("abc_leds");
+        mChargingLeds = (Preference) findPreference("abc_charging_light");
+        if (mChargingLeds != null
+                && !getResources().getBoolean(
+                        com.android.internal.R.bool.config_intrusiveBatteryLed)) {
+            mLedsCategory.removePreference(mChargingLeds);
+        }
+        if (mChargingLeds == null) {
+            prefSet.removePreference(mLedsCategory);
+        }
     }
 
     @Override
