@@ -61,10 +61,10 @@
             android:fragment="com.abc.settings.VolumeRockerSettings"
             android:title="@string/volumerocker_settings_title"/>
 
-        <!-- <Preference
+        <Preference
             android:key="abc_other_settings"
             android:fragment="com.abc.settings.OtherSettings"
-        android:title="@string/other_settings_title"/>-->
+        android:title="@string/other_settings_title"/>
 
     </PreferenceCategory>
 
