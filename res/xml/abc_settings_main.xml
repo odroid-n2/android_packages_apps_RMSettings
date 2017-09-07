@@ -36,12 +36,12 @@
             android:fragment="com.abc.settings.NotificationDrawerSettings"
             android:title="@string/notification_drawer_settings_title"/>
 
-        <!-- <Preference
+        <Preference
             android:key="abc_statusbar_settings"
             android:fragment="com.abc.settings.StatusBarSettings"
             android:title="@string/statusbar_settings_title"/>
 
-        <Preference
+        <!-- <Preference
             android:key="abc_recent_settings"
             android:fragment="com.abc.settings.RecentSettings"
         android:title="@string/recent_settings_title"/>-->
