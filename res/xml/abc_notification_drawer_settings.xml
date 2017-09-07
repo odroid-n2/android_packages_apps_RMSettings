@@ -17,14 +17,38 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-    <com.abc.settings.preferences.SystemSettingSwitchPreference
-        android:key="status_bar_quick_qs_pulldown"
-        android:title="@string/status_bar_quick_qs_pulldown"
-        android:defaultValue="true" />
+    <PreferenceCategory
+        android:key="qs_cat"
+        android:title="@string/qs_cat_title" >
 
-    <com.abc.settings.preferences.SystemSettingSwitchPreference
-        android:key="qs_footer_warnings"
-        android:title="@string/qs_footer_warnings_title"
-        android:summary="@string/qs_footer_warnings_summary"
-        android:defaultValue="true" />
+        <com.abc.settings.preferences.SystemSettingSwitchPreference
+            android:key="status_bar_quick_qs_pulldown"
+            android:title="@string/status_bar_quick_qs_pulldown"
+            android:defaultValue="true" />
+
+        <com.abc.settings.preferences.SecureSettingSwitchPreference
+            android:key="qs_show_brightness"
+            android:title="@string/qs_brightness_slider_title"
+            android:summary="@string/qs_brightness_slider_summary"
+            android:defaultValue="true"/>
+
+        <com.abc.settings.preferences.SystemSettingSwitchPreference
+            android:key="qs_footer_warnings"
+            android:title="@string/qs_footer_warnings_title"
+            android:summary="@string/qs_footer_warnings_summary"
+            android:defaultValue="true" />
+    </PreferenceCategory>
+
+    <!--<PreferenceCategory
+        android:key="notifications_cat"
+        android:title="@string/notifications_cat_title" >
+
+        <Preference
+                android:title="@string/powern_notifications_title"
+                android:summary="@string/powern_notifications_summary">
+            <intent android:action="android.intent.action.MAIN"
+                    android:targetPackage="com.android.systemui"
+                    android:targetClass="com.android.systemui.tuner.PowerNotificationsTunerActivity" />
+        </Preference>
+    </PreferenceCategory>-->
 </PreferenceScreen>

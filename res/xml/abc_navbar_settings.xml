@@ -21,4 +21,12 @@
         android:key="double_tap_sleep_navbar"
         android:title="@string/double_tap_sleep_navbar"
         android:defaultValue="true" />
+
+    <Preference
+            android:title="@string/navbar_buttons_title"
+            android:summary="@string/navbar_buttons_summary">
+        <intent android:action="android.intent.action.MAIN"
+                android:targetPackage="com.android.systemui"
+                android:targetClass="com.android.systemui.tuner.NavBarTunerActivity" />
+    </Preference>
 </PreferenceScreen>
