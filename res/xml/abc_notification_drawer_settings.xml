@@ -39,16 +39,22 @@
             android:defaultValue="true" />
     </PreferenceCategory>
 
-    <!--<PreferenceCategory
-        android:key="notifications_cat"
-        android:title="@string/notifications_cat_title" >
+    <PreferenceCategory
+        android:key="notifications_category"
+        android:title="@string/notifications_category_title" >
 
-        <Preference
+        <com.abc.settings.preferences.SystemSettingSwitchPreference
+            android:key="less_boring_heads_up"
+            android:title="@string/less_boring_heads_up_title"
+            android:summary="@string/less_boring_heads_up_summary"
+            android:defaultValue="true" />
+
+        <!--<Preference
                 android:title="@string/powern_notifications_title"
                 android:summary="@string/powern_notifications_summary">
             <intent android:action="android.intent.action.MAIN"
                     android:targetPackage="com.android.systemui"
                     android:targetClass="com.android.systemui.tuner.PowerNotificationsTunerActivity" />
-        </Preference>
-    </PreferenceCategory>-->
+        </Preference>-->
+    </PreferenceCategory>
 </PreferenceScreen>
