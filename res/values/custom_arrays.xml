@@ -11,7 +11,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
- 
     <!-- Sms security limit -->
     <string-array name="sms_outgoing_check_max_count_entries" translatable="false">
         <item>@string/sms_outgoing_check_max_count_default</item>
@@ -55,5 +54,16 @@
         <item>3</item>
         <item>4</item>
         <item>5</item>
+    </string-array>
+
+    <!-- Wired headset ringtone audio focus -->
+    <string-array name="ringtone_focus_mode_entries">
+        <item>@string/ringtone_focus_mode_dynamic</item>
+        <item>@string/ringtone_focus_mode_stock</item>
+    </string-array>
+
+    <string-array name="ringtone_focus_mode_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
     </string-array>
 </resources>
