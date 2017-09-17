@@ -77,10 +77,10 @@
                 android:fragment="com.abc.settings.BatteryLightSettings"
                 android:title="@string/abc_battery_light_settings" />
 
-        <!-- <Preference
-                android:key="abc_notification_light"
-                android:fragment="com.abc.settings.batterylight.NotificationLightSettings"
-                android:title="@string/abc_notification_light_settings" />-->
+        <Preference
+            android:key="abc_notification_light"
+            android:fragment="com.android.settings.applications.NotificationApps"
+            android:title="@string/abc_notification_light_settings" />
 
     </PreferenceCategory>
 </PreferenceScreen>
