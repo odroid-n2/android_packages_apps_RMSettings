@@ -28,7 +28,7 @@
     <string name="other_settings_title">Other</string>
     <string name="abc_leds">LED lights</string>
     <string name="abc_battery_light_settings">Battery charging light</string>
-    <string name="abc_notification_light_settings">Notifications light</string>
+    <string name="abc_notification_light_settings">Notification light</string>
     <string name="recent_settings_title">Recents Panel</string>
     <!-- Color Picker -->
     <string name="dialog_color_picker">Color Picker</string>
@@ -47,14 +47,15 @@
     <string name="volume_keys_control_media_stream_title">Volume keys control media volume</string>
     <string name="volume_keys_control_media_stream_summary">Volume panel will show media volume slider by default</string>
 
-    <string name="status_bar_quick_qs_pulldown">Pulldown statusbar from right side to show QS panel</string>
+    <string name="status_bar_quick_qs_pulldown">Quick Pulldown</string>
+    <string name="status_bar_quick_qs_pulldown_summary">Pulldown statusbar from right side to show QS panel</string>
 
     <string name="volume_rocker_music_controls_title">Playback control</string>
     <string name="volume_rocker_music_controls_summary">When the screen is off, long-pressing the volume keys will seek music tracks</string>
 
     <!-- Media art -->
     <string name="media_art_title">Media cover art</string>
-    <string name="media_art_summary">Enable media cover art on the lockscreen</string>
+    <string name="media_art_summary">Enable media cover art on the lockscreen during playback</string>
 
     <!-- Sms security limit -->
     <string name="apps_security_options_title">Apps security</string>
@@ -67,7 +68,7 @@
     <!-- Torch Power button gestures -->
     <string name="torch_power_button_gesture_title">Screen off power button torch</string>
     <string name="torch_power_button_gesture_none">Disabled</string>
-    <string name="torch_power_button_gesture_dt">Double tap power to toggle torch (will add a small delay to single tap)</string>
+    <string name="torch_power_button_gesture_dt">Double tap power to toggle torch</string>
     <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
 
     <!-- Launch music player when headset is connected -->
@@ -86,7 +87,7 @@
     <string name="battery_light_low_color">Low battery</string>
     <string name="battery_light_medium_color">Medium battery</string>
     <string name="battery_light_full_color">Almost full battery</string>
-    <string name="battery_light_reallyfull_color">Full (100) battery</string>
+    <string name="battery_light_reallyfull_color">Full battery (100)</string>
 
     <!-- QS footer warnings -->
     <string name="qs_footer_warnings_title">QS footer warnings</string>
@@ -105,9 +106,9 @@
     <string name="qs_brightness_slider_summary">Show brightness slider on quick settings panel</string>
     <string name="vol_dnd_category_title">Do not disturb mode</string>
     <string name="volbtn_down_zen_title">Volume down for do not disturb</string>
-    <string name="volbtn_down_zen_summary">allow volume down to enter do not disturb mode</string>
+    <string name="volbtn_down_zen_summary">Allow volume down to enter do not disturb mode</string>
     <string name="volbtn_up_zen_title">Volume up in do not disturb</string>
-    <string name="volbtn_up_zen_summary">allow volume up to exit do not disturb mode</string>
+    <string name="volbtn_up_zen_summary">Allow volume up to exit do not disturb mode</string>
     <string name="vol_zen_title">Do not disturb switch</string>
     <string name="vol_zen_summary">Show do not disturb swith on volume panel</string>
     <string name="doze_always_on_title">Always-on Ambient Display</string>
