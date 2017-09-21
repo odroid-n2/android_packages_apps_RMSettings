@@ -134,9 +134,11 @@
     <string name="network_traffic_state_title">Show net activity in statusbar</string>
     <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
 
-    <!-- Wake on Plug -->
+    <!-- Power plug events -->
     <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
     <string name="wake_when_plugged_or_unplugged_summary">Turn the screen on when connecting or disconnecting a power source</string>
+    <string name="vibration_on_charge_state_changed_title">Vibrate on plug</string>
+    <string name="vibration_on_charge_state_changed_summary">Vibrate when connecting or disconnecting a power source</string>
 
     <!-- Headset ringtone audio focus -->
     <string name="ringtone_focus_mode_title">Where to play ringtones from</string>

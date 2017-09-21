@@ -112,8 +112,10 @@
     <string name="network_traffic_state_title">Monitor di rete nella barra di stato</string>
     <string name="network_traffic_autohide_threshold_title">Soglia monitor di rete (KB/s)</string>
 
-    <string name="wake_when_plugged_or_unplugged_title">Risveglia se in carica</string>
-    <string name="wake_when_plugged_or_unplugged_summary">Attiva lo schermo se viene connesso un caricatore</string>
+    <string name="wake_when_plugged_or_unplugged_title">Risveglio caricatore</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Attiva lo schermo se viene connesso o disconnesso il caricatore</string>
+    <string name="vibration_on_charge_state_changed_title">Vibrazione caricatore</string>
+    <string name="vibration_on_charge_state_changed_summary">Vibra se viene connesso o disconnesso il caricatore</string>
 
     <string name="ringtone_focus_mode_title">Uscita audio per suoneria</string>
     <string name="ringtone_focus_mode_dynamic">Headset se connesso e se musica in riproduzione</string>
