@@ -29,11 +29,12 @@
         android:summary="@string/lockscreen_power_menu_disabled_summary"
         android:defaultValue="true" />
 
+    <!-- THIS IS STILL BUGGY, BUT ALSO USELESS
     <com.abc.settings.preferences.SecureSettingSwitchPreference
         android:key="doze_always_on"
         android:title="@string/doze_always_on_title"
         android:summary="@string/doze_always_on_summary"
-        android:defaultValue="false" />
+        android:defaultValue="false" />-->
 
     <com.abc.settings.preferences.SystemSettingSwitchPreference
         android:key="vibration_on_charge_state_changed"
