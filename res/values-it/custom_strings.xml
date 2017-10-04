@@ -124,4 +124,5 @@
     <string name="lockscreen_power_menu_disabled_title">Menu power sicuro</string>
     <string name="lockscreen_power_menu_disabled_summary">Non mostrare il menu power nella lockscreen sicura</string>
 
+    <string name="navigation_bar_enabled_title">Attiva barra navigazione</string>
 </resources>

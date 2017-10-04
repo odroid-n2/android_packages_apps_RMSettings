@@ -18,9 +18,9 @@ package com.abc.settings;
 import android.content.ContentResolver;
 import android.content.res.Resources;
 import android.os.Bundle;
-import android.support.v7.preference.ListPreference;
+import android.os.UserHandle;
 import android.support.v7.preference.Preference;
-import android.support.v7.preference.PreferenceScreen;
+import android.support.v14.preference.SwitchPreference;
 import android.provider.Settings;
 
 import com.android.internal.logging.nano.MetricsProto;
@@ -31,11 +31,22 @@ import com.android.settings.SettingsPreferenceFragment;
 public class NavbarSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
 
+    private SwitchPreference mNavbarToggle;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.abc_navbar_settings);
+        ContentResolver resolver = getActivity().getContentResolver();
 
+        mNavbarToggle = (SwitchPreference) findPreference("navigation_bar_enabled");
+        boolean enabled = Settings.Secure.getIntForUser(
+                resolver, Settings.Secure.NAVIGATION_BAR_ENABLED,
+                getActivity().getResources().getBoolean(
+                com.android.internal.R.bool.config_showNavigationBar) ? 1 : 0,
+                UserHandle.USER_CURRENT) == 1;
+        mNavbarToggle.setChecked(enabled);
+        mNavbarToggle.setOnPreferenceChangeListener(this);
     }
 
     @Override
@@ -44,6 +55,15 @@ public class NavbarSettings extends SettingsPreferenceFragment implements
     }
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
+        ContentResolver resolver = getActivity().getContentResolver();
+        if (preference == mNavbarToggle) {
+            boolean value = (Boolean) newValue;
+            Settings.Secure.putIntForUser(getActivity().getContentResolver(),
+                    Settings.Secure.NAVIGATION_BAR_ENABLED, value ? 1 : 0,
+                    UserHandle.USER_CURRENT);
+            mNavbarToggle.setChecked(value);
+            return true;
+        }
         return false;
     }
 }
