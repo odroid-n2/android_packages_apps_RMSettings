@@ -41,10 +41,10 @@
             android:fragment="com.abc.settings.StatusBarSettings"
             android:title="@string/statusbar_settings_title"/>
 
-        <!-- <Preference
+        <Preference
             android:key="abc_recent_settings"
-            android:fragment="com.abc.settings.RecentSettings"
-        android:title="@string/recent_settings_title"/>-->
+            android:fragment="com.abc.settings.RecentsSettings"
+        android:title="@string/recent_settings_title"/>
     </PreferenceCategory>
 
     <PreferenceCategory
