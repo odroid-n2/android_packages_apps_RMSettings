@@ -131,4 +131,9 @@
     <string name="no_iconpacks_summary">Nessun pacchetto icone installato</string>
     <string name="dialog_pick_iconpack_title">Seleziona pacchetto</string>
     <string name="default_iconpack_title">Icone predefinite</string>
+
+    <string name="ticker_mode_title">Ticker barra di stato</string>
+    <string name="ticker_disabled">Disattivato</string>
+    <string name="ticker_enabled">Ticker notifiche</string>
+    <string name="ticker_media_enabled">Ticker notifiche e musica</string>
 </resources>
