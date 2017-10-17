@@ -136,4 +136,35 @@
     <string name="ticker_disabled">Disattivato</string>
     <string name="ticker_enabled">Ticker notifiche</string>
     <string name="ticker_media_enabled">Ticker notifiche e musica</string>
+
+    <string name="slim_recents_title">Recenti Slim</string>
+    <string name="use_slim_recents_title">Usa pannello recenti alternativo</string>
+    <string name="use_slim_recents_summary">Usa Recenti Slim invece del pannello predefinito</string>
+    <string name="slim_recents_settings_title">Impostazioni Recenti Slim</string>
+    <string name="slim_recents_settings_summary">Configurazione Recenti Slim</string>
+    <string name="recents_max_apps_title">Numero massimo apps</string>
+    <string name="recent_panel_scale_title">Dimensione</string>
+    <string name="recent_panel_expanded_mode_title">Espansione anteprime</string>
+    <string name="recent_panel_expanded_mode_summary">Espansione anteprime</string>
+    <string name="recent_panel_expanded_mode_auto">Auto (default)</string>
+    <string name="recent_panel_expanded_mode_always">Tutte</string>
+    <string name="recent_panel_expanded_mode_never">Disattivata</string>
+    <string name="recent_panel_bg_color_title">Sfondo pannello</string>
+    <string name="recent_card_bg_color_title">Sfondo cards</string>
+    <string name="recent_reset_title">Resetta colori</string>
+    <string name="recent_reset_confirm">Sicuro di voler resettare i colori?</string>
+    <string name="default_auto_string">Default (in base all\'app)</string>
+    <string name="slim_icon_pack_title">Pacchetti icone</string>
+    <string name="slim_icon_pack_summary">Usa un pacchetto icone personalizzato</string>
+    <string name="slim_recents_corner_radius_title">Arrotonda i bordi delle cards</string>
+    <string name="recent_panel_lefty_mode_title">Mostra a sinistra</string>
+    <string name="recent_panel_lefty_mode_summary">Mostra il pannello a sinistra dello schermo</string>
+    <string name="profile_choose_app">Scegli l\'app</string>
+    <string name="dialog_delete_title">Rimuovi</string>
+    <string name="dialog_delete_message">Rimuovere?</string>
+    <string name="slim_blacklist_apps_cat_title">Blacklist</string>
+    <string name="slim_blacklist_apps_title">Blacklist apps</string>
+    <string name="slim_blacklist_apps_summary">Apps da non mostrare nel pannello</string>
+    <string name="slim_blacklist_add_apps_title">Aggiungi app</string>
+    <string name="slim_blacklist_add_apps_summary">Tap qui per aggiungere, tap su un\'app aggiunta per rimuoverla</string>
 </resources>
