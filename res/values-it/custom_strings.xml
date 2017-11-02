@@ -148,7 +148,7 @@
     <string name="recent_panel_expanded_mode_summary">Espansione anteprime</string>
     <string name="recent_panel_expanded_mode_auto">Auto (default)</string>
     <string name="recent_panel_expanded_mode_always">Tutte</string>
-    <string name="recent_panel_expanded_mode_never">Disattivata</string>
+    <string name="recent_panel_expanded_mode_never">Off (modalità fast engine)</string>
     <string name="recent_panel_bg_color_title">Sfondo pannello</string>
     <string name="recent_card_bg_color_title">Sfondo cards</string>
     <string name="recent_reset_title">Resetta colori</string>
