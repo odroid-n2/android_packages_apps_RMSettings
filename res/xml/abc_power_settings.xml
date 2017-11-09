@@ -47,4 +47,11 @@
         android:title="@string/wake_when_plugged_or_unplugged_title"
         android:summary="@string/wake_when_plugged_or_unplugged_summary"
         android:defaultValue="false" />
+
+    <ListPreference
+        android:key="alert_on_charged_level"
+        android:title="@string/alert_on_charged_level_title"
+        android:summary="@string/alert_on_charged_level_summary"
+        android:entries="@array/alert_on_charged_entries"
+        android:entryValues="@array/alert_on_charged_level_values" />
 </PreferenceScreen>

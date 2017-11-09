@@ -167,4 +167,8 @@
     <string name="slim_blacklist_apps_summary">Apps da non mostrare nel pannello</string>
     <string name="slim_blacklist_add_apps_title">Aggiungi app</string>
     <string name="slim_blacklist_add_apps_summary">Tap qui per aggiungere, tap su un\'app aggiunta per rimuoverla</string>
+
+    <string name="alert_on_charged_level_title">Avviso batteria carica</string>
+    <string name="alert_on_charged_level_summary">Notifica e suona/vibra quando il livello di ricarica è sufficiente e lo schermo è spento da almeno 1 min. La notifica può essere disattivata separatamente con un tap lungo su di essa.</string>
+    <string name="alert_on_charged_level_dis">Disattivato</string>
 </resources>

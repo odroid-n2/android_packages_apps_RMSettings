@@ -34,8 +34,10 @@ public class PowerSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
 
     private static final String TORCH_POWER_BUTTON_GESTURE = "torch_power_button_gesture";
+    private static final String ALERT_ON_CHARGED_LEVEL = "alert_on_charged_level";
 
     private ListPreference mTorchPowerButton;
+    private ListPreference mAlertOnChargedLevel;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -57,6 +59,12 @@ public class PowerSettings extends SettingsPreferenceFragment implements
             mTorchPowerButton.setSummary(mTorchPowerButton.getEntry());
             mTorchPowerButton.setOnPreferenceChangeListener(this);
         }
+
+        mAlertOnChargedLevel = (ListPreference) findPreference(ALERT_ON_CHARGED_LEVEL);
+        int val = Settings.System.getIntForUser(resolver,
+                Settings.System.ALERT_ON_CHARGED_LEVEL, -1, UserHandle.USER_CURRENT);
+        mAlertOnChargedLevel.setValue(Integer.toString(val));
+        mAlertOnChargedLevel.setOnPreferenceChangeListener(this);
     }
 
     @Override
@@ -66,7 +74,6 @@ public class PowerSettings extends SettingsPreferenceFragment implements
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         ContentResolver resolver = getActivity().getContentResolver();
-
         if (preference == mTorchPowerButton) {
             int mTorchPowerButtonValue = Integer.valueOf((String) newValue);
             int index = mTorchPowerButton.findIndexOfValue((String) newValue);
@@ -80,8 +87,12 @@ public class PowerSettings extends SettingsPreferenceFragment implements
                         1);
             }
             return true;
+        } else if (preference == mAlertOnChargedLevel) {
+            int val = Integer.valueOf((String) newValue);
+            Settings.System.putIntForUser(resolver, Settings.System.ALERT_ON_CHARGED_LEVEL,
+                    val, UserHandle.USER_CURRENT);
+            return true;
         }
-
         return false;
     }
 }

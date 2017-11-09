@@ -198,4 +198,11 @@
     <string name="slim_blacklist_apps_summary">Apps to not show in the panel</string>
     <string name="slim_blacklist_add_apps_title">Add app</string>
     <string name="slim_blacklist_add_apps_summary">Tap here to add, tap on added app to remove it</string>
+
+    <string name="alert_on_charged_level_title">Alert on battery charged</string>
+    <string name="alert_on_charged_level_summary">Notify and play sound/vibrate on good charge level if screen is off since at least 1 min. Notification can be disabled separately long pressing on it.</string>
+    <string name="alert_on_charged_level_dis">Disabled</string>
+    <string name="alert_on_charged_level_80">"80%"</string>
+    <string name="alert_on_charged_level_90">"90%"</string>
+    <string name="alert_on_charged_level_99">"99%"</string>
 </resources>
