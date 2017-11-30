@@ -39,7 +39,6 @@
     <string name="set">Set</string>
     <string name="color_default">Default</string>
 
-    <string name="double_tap_sleep_navbar">Double tap to sleep on navbar</string>
     <string name="double_tap_sleep_lockscreen">Double tap to sleep on lockscreen</string>
 
     <string name="swap_volume_buttons">Swap volume buttons rotation based</string>
@@ -373,4 +372,6 @@
     <string name="smartbar_custom_icon_size_title">Custom icon scaling</string>
     <string name="one_handed_mode_title">One handed mode</string>
     <string name="one_handed_mode_summary">Allows swiping on the navigation bar to enable one handed mode</string>
+    <string name="smartbar_double_tap_sleep_title">Double tap to sleep</string>
+    <string name="smartbar_double_tap_sleep_summary">Double tap on empty navbar areas to sleep</string>
 </resources>
