@@ -34,10 +34,10 @@ import android.provider.Settings;
 import com.android.settings.SettingsPreferenceFragment;
 import com.abc.settings.preferences.CustomSeekBarPreference;
 import com.android.internal.logging.nano.MetricsProto;
-import com.android.internal.utils.du.ActionConstants;
+/*import com.android.internal.utils.du.ActionConstants;
 import com.android.internal.utils.du.Config;
 import com.android.internal.utils.du.DUActionUtils;
-import com.android.internal.utils.du.Config.ButtonConfig;
+import com.android.internal.utils.du.Config.ButtonConfig;*/
 import com.android.settings.R;
 
 public class NavbarSettings extends SettingsPreferenceFragment implements Preference.OnPreferenceChangeListener {
@@ -74,7 +74,7 @@ public class NavbarSettings extends SettingsPreferenceFragment implements Prefer
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.abc_navbar_settings);
 
-        mNavInterface = (PreferenceCategory) findPreference(KEY_CATEGORY_NAVIGATION_INTERFACE);
+        /*mNavInterface = (PreferenceCategory) findPreference(KEY_CATEGORY_NAVIGATION_INTERFACE);
         mNavGeneral = (PreferenceCategory) findPreference(KEY_CATEGORY_NAVIGATION_GENERAL);
         mNavbarVisibility = (SwitchPreference) findPreference(NAVBAR_VISIBILITY);
         mNavbarMode = (ListPreference) findPreference(KEY_NAVBAR_MODE);
@@ -118,10 +118,10 @@ public class NavbarSettings extends SettingsPreferenceFragment implements Prefer
             mBarHeightLand.setOnPreferenceChangeListener(this);
         }
 
-        mHandler = new Handler();
+        mHandler = new Handler();*/
     }
 
-    private void updateBarModeSettings(int mode) {
+    /*private void updateBarModeSettings(int mode) {
         mNavbarMode.setValue(String.valueOf(mode));
         switch (mode) {
             case 0:
@@ -161,11 +161,11 @@ public class NavbarSettings extends SettingsPreferenceFragment implements Prefer
         mNavbarVisibility.setChecked(showing);
         mNavInterface.setEnabled(mNavbarVisibility.isChecked());
         mNavGeneral.setEnabled(mNavbarVisibility.isChecked());
-    }
+    }*/
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
-        if (preference.equals(mNavbarMode)) {
+        /*if (preference.equals(mNavbarMode)) {
             int mode = Integer.parseInt(((String) newValue).toString());
             Settings.Secure.putInt(getContentResolver(),
                     Settings.Secure.NAVIGATION_BAR_MODE, mode);
@@ -202,7 +202,7 @@ public class NavbarSettings extends SettingsPreferenceFragment implements Prefer
             Settings.Secure.putIntForUser(getContentResolver(),
                     Settings.Secure.NAVIGATION_BAR_WIDTH, val, UserHandle.USER_CURRENT);
             return true;
-        }
+        }*/
         return false;
     }
 

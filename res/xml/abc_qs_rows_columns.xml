@@ -43,5 +43,5 @@
         android:title="@string/qs_columns_landscape_title"
         android:max="9"
         settings:min="1"
-        settings:units="" />
+    settings:units="" />
 </PreferenceScreen>

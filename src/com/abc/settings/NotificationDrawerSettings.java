@@ -39,13 +39,13 @@ public class NotificationDrawerSettings extends SettingsPreferenceFragment imple
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.abc_notification_drawer_settings);
 
-        mTickerMode = (ListPreference) findPreference("ticker_mode");
+        /*mTickerMode = (ListPreference) findPreference("ticker_mode");
         mTickerMode.setOnPreferenceChangeListener(this);
         int tickerMode = Settings.System.getIntForUser(getContentResolver(),
                 Settings.System.STATUS_BAR_SHOW_TICKER,
                 1, UserHandle.USER_CURRENT);
         mTickerMode.setValue(String.valueOf(tickerMode));
-        mTickerMode.setSummary(mTickerMode.getEntry());
+        mTickerMode.setSummary(mTickerMode.getEntry());*/
 
     }
 
@@ -56,7 +56,7 @@ public class NotificationDrawerSettings extends SettingsPreferenceFragment imple
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         ContentResolver resolver = getActivity().getContentResolver();
-        if (preference.equals(mTickerMode)) {
+        /*if (preference.equals(mTickerMode)) {
             int tickerMode = Integer.parseInt(((String) newValue).toString());
             Settings.System.putIntForUser(getContentResolver(),
                     Settings.System.STATUS_BAR_SHOW_TICKER, tickerMode, UserHandle.USER_CURRENT);
@@ -64,7 +64,7 @@ public class NotificationDrawerSettings extends SettingsPreferenceFragment imple
             mTickerMode.setSummary(
                     mTickerMode.getEntries()[index]);
             return true;
-        }
+        }*/
 
         return false;
     }

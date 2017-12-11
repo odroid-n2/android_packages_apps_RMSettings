@@ -44,7 +44,7 @@ public class OtherSettings extends SettingsPreferenceFragment implements
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.abc_other_settings);
 
-        PreferenceScreen prefScreen = getPreferenceScreen();
+        /*PreferenceScreen prefScreen = getPreferenceScreen();
         ContentResolver resolver = getActivity().getContentResolver();
 
         PreferenceCategory appsSecCategory = (PreferenceCategory) findPreference(APPS_SECURITY);
@@ -58,7 +58,7 @@ public class OtherSettings extends SettingsPreferenceFragment implements
         if (!Utils.isVoiceCapable(getActivity())) {
             appsSecCategory.removePreference(mSmsCount);
             prefScreen.removePreference(appsSecCategory);
-        }
+        }*/
     }
 
     @Override
@@ -74,7 +74,7 @@ public class OtherSettings extends SettingsPreferenceFragment implements
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         ContentResolver resolver = getActivity().getContentResolver();
-
+/*
         if (preference == mSmsCount) {
             mSmsCountValue = Integer.valueOf((String) newValue);
             int index = mSmsCount.findIndexOfValue((String) newValue);
@@ -83,7 +83,7 @@ public class OtherSettings extends SettingsPreferenceFragment implements
             Settings.Global.putInt(resolver,
                     Settings.Global.SMS_OUTGOING_CHECK_MAX_COUNT, mSmsCountValue);
             return true;
-        }
+        }*/
         return false;
     }
 }

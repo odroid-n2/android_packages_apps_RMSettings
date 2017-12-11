@@ -17,7 +17,7 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-    <ListPreference
+    <!-- <ListPreference
         android:key="ringtone_focus_mode"
         android:title="@string/ringtone_focus_mode_title"
         android:entries="@array/ringtone_focus_mode_entries"
@@ -62,10 +62,5 @@
             android:summary="@string/volbtn_up_zen_summary"
             android:defaultValue="true" />
 
-        <!--<com.abc.settings.preferences.SecureSettingSwitchPreference
-            android:key="sysui_show_full_zen"
-            android:title="@string/vol_zen_title"
-            android:summary="@string/vol_zen_summary"
-        android:defaultValue="false"/>-->
-    </PreferenceCategory>
+    </PreferenceCategory>-->
 </PreferenceScreen>

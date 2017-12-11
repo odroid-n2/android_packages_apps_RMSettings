@@ -21,10 +21,10 @@
         android:key="abc_interface"
         android:title="@string/abc_interface">
 
-        <Preference
+        <!-- <Preference
             android:key="navigation_options"
             android:fragment="com.abc.settings.NavbarSettings"
-            android:title="@string/navigationbar_settings_title" />
+        android:title="@string/navigationbar_settings_title" />-->
 
         <Preference
             android:key="abc_lockscreen_settings"
@@ -68,7 +68,7 @@
 
     </PreferenceCategory>
 
-    <PreferenceCategory
+    <!-- <PreferenceCategory
         android:key="abc_leds"
         android:title="@string/abc_leds" >
 
@@ -80,7 +80,7 @@
         <Preference
             android:key="abc_notification_light"
             android:fragment="com.android.settings.applications.NotificationApps"
-            android:title="@string/abc_notification_light_settings" />
+        android:title="@string/abc_notification_light_settings" />
 
-    </PreferenceCategory>
+    </PreferenceCategory>-->
 </PreferenceScreen>

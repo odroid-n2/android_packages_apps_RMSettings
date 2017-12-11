@@ -80,7 +80,7 @@ public class RecentsSettings extends SettingsPreferenceFragment implements
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.abc_recents_settings);
         ContentResolver resolver = getActivity().getContentResolver();
-
+/*
         mStockIconPacks = (Preference) findPreference("recents_icon_pack");
         mSlimToggle = (SwitchPreference) findPreference("use_slim_recents");
         boolean enabled = Settings.System.getIntForUser(
@@ -88,7 +88,7 @@ public class RecentsSettings extends SettingsPreferenceFragment implements
                 UserHandle.USER_CURRENT) == 1;
         mSlimToggle.setChecked(enabled);
         mStockIconPacks.setEnabled(!enabled);
-        mSlimToggle.setOnPreferenceChangeListener(this);
+        mSlimToggle.setOnPreferenceChangeListener(this);*/
     }
 
     @Override
@@ -98,7 +98,7 @@ public class RecentsSettings extends SettingsPreferenceFragment implements
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         ContentResolver resolver = getActivity().getContentResolver();
-        if (preference == mSlimToggle) {
+        /*if (preference == mSlimToggle) {
             boolean value = (Boolean) newValue;
             Settings.System.putIntForUser(getActivity().getContentResolver(),
                     Settings.System.USE_SLIM_RECENTS, value ? 1 : 0,
@@ -106,21 +106,21 @@ public class RecentsSettings extends SettingsPreferenceFragment implements
             mSlimToggle.setChecked(value);
             mStockIconPacks.setEnabled(!value);
             return true;
-        }
+        }*/
         return false;
     }
 
-    @Override
+    /*@Override
     public boolean onPreferenceTreeClick(Preference preference) {
         if (preference == mStockIconPacks) {
             pickIconPack(getContext());
             return true;
         }
         return super.onPreferenceTreeClick(preference);
-    }
+    }*/
 
     /** Recents Icon Pack Dialog **/
-    private void pickIconPack(final Context context) {
+    /*private void pickIconPack(final Context context) {
         if (mDialog != null) {
             return;
         }
@@ -160,16 +160,16 @@ public class RecentsSettings extends SettingsPreferenceFragment implements
         });
 
         return view;
-    }
+    }*/
 
     @Override
     public void onDismiss(DialogInterface dialog) {
-        if (mDialog != null) {
+        /*if (mDialog != null) {
             mDialog = null;
-        }
+        }*/
     }
 
-    private static class IconAdapter extends BaseAdapter {
+    /*private static class IconAdapter extends BaseAdapter {
         ArrayList<IconPackInfo> mSupportedPackages;
         LayoutInflater mLayoutInflater;
         String mCurrentIconPack;
@@ -274,5 +274,5 @@ public class RecentsSettings extends SettingsPreferenceFragment implements
             this.icon = icon;
             this.packageName = packageName;
         }
-    }
+    }*/
 }
