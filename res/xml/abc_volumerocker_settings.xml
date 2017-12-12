@@ -44,7 +44,7 @@
         android:key="headset_connect_player"
         android:title="@string/headset_connect_player_title"
         android:entries="@array/headset_connect_player_entries"
-        android:entryValues="@array/headset_connect_player_values" />
+        android:entryValues="@array/headset_connect_player_values" />-->
 
     <PreferenceCategory
         android:key="vol_dnd_category"
@@ -62,5 +62,5 @@
             android:summary="@string/volbtn_up_zen_summary"
             android:defaultValue="true" />
 
-    </PreferenceCategory>-->
+    </PreferenceCategory>
 </PreferenceScreen>

@@ -21,10 +21,10 @@
         android:key="abc_interface"
         android:title="@string/abc_interface">
 
-        <!-- <Preference
+        <Preference
             android:key="navigation_options"
             android:fragment="com.abc.settings.NavbarSettings"
-        android:title="@string/navigationbar_settings_title" />-->
+        android:title="@string/navigationbar_settings_title" />
 
         <Preference
             android:key="abc_lockscreen_settings"
