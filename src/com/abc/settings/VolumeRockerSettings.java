@@ -43,14 +43,14 @@ public class VolumeRockerSettings extends SettingsPreferenceFragment implements
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.abc_volumerocker_settings);
         ContentResolver resolver = getActivity().getContentResolver();
-/*
+
         mLaunchPlayerHeadsetConnection = (ListPreference) findPreference(HEADSET_CONNECT_PLAYER);
         int mLaunchPlayerHeadsetConnectionValue = Settings.System.getIntForUser(resolver,
                 Settings.System.HEADSET_CONNECT_PLAYER, 4, UserHandle.USER_CURRENT);
         mLaunchPlayerHeadsetConnection.setValue(Integer.toString(mLaunchPlayerHeadsetConnectionValue));
         mLaunchPlayerHeadsetConnection.setSummary(mLaunchPlayerHeadsetConnection.getEntry());
         mLaunchPlayerHeadsetConnection.setOnPreferenceChangeListener(this);
-
+/*
         mHeadsetRingtoneFocus = (ListPreference) findPreference(RINGTONE_FOCUS_MODE);
         int mHeadsetRingtoneFocusValue = Settings.Global.getInt(resolver,
                 Settings.Global.RINGTONE_FOCUS_MODE, 0);
@@ -66,7 +66,7 @@ public class VolumeRockerSettings extends SettingsPreferenceFragment implements
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         ContentResolver resolver = getActivity().getContentResolver();
-      /*  if (preference == mLaunchPlayerHeadsetConnection) {
+        if (preference == mLaunchPlayerHeadsetConnection) {
             int mLaunchPlayerHeadsetConnectionValue = Integer.valueOf((String) newValue);
             int index = mLaunchPlayerHeadsetConnection.findIndexOfValue((String) newValue);
             mLaunchPlayerHeadsetConnection.setSummary(
@@ -74,7 +74,7 @@ public class VolumeRockerSettings extends SettingsPreferenceFragment implements
             Settings.System.putIntForUser(resolver, Settings.System.HEADSET_CONNECT_PLAYER,
                     mLaunchPlayerHeadsetConnectionValue, UserHandle.USER_CURRENT);
             return true;
-        } else if (preference == mHeadsetRingtoneFocus) {
+        }/* else if (preference == mHeadsetRingtoneFocus) {
             int mHeadsetRingtoneFocusValue = Integer.valueOf((String) newValue);
             int index = mHeadsetRingtoneFocus.findIndexOfValue((String) newValue);
             mHeadsetRingtoneFocus.setSummary(
