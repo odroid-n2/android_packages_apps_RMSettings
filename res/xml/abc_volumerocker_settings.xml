@@ -28,13 +28,13 @@
         android:title="@string/swap_volume_buttons"
         android:defaultValue="true" />
 
-    <!-- <com.abc.settings.preferences.SystemSettingSwitchPreference
+    <com.abc.settings.preferences.SystemSettingSwitchPreference
         android:key="volume_keys_control_media_stream"
         android:title="@string/volume_keys_control_media_stream_title"
         android:summary="@string/volume_keys_control_media_stream_summary"
         android:defaultValue="true" />
 
-    <com.abc.settings.preferences.SystemSettingSwitchPreference
+    <!-- <com.abc.settings.preferences.SystemSettingSwitchPreference
         android:key="volume_button_music_control"
         android:title="@string/volume_rocker_music_controls_title"
         android:summary="@string/volume_rocker_music_controls_summary"
