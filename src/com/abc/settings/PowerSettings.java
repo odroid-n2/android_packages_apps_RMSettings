@@ -41,7 +41,7 @@ public class PowerSettings extends SettingsPreferenceFragment implements
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.abc_power_settings);
-        /*ContentResolver resolver = getActivity().getContentResolver();
+        ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefScreen = getPreferenceScreen();
 
         if (!AbcUtils.deviceHasFlashlight(getContext())) {
@@ -56,7 +56,7 @@ public class PowerSettings extends SettingsPreferenceFragment implements
             mTorchPowerButton.setValue(Integer.toString(mTorchPowerButtonValue));
             mTorchPowerButton.setSummary(mTorchPowerButton.getEntry());
             mTorchPowerButton.setOnPreferenceChangeListener(this);
-        }*/
+        }
     }
 
     @Override
@@ -66,7 +66,7 @@ public class PowerSettings extends SettingsPreferenceFragment implements
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         ContentResolver resolver = getActivity().getContentResolver();
-/*
+
         if (preference == mTorchPowerButton) {
             int mTorchPowerButtonValue = Integer.valueOf((String) newValue);
             int index = mTorchPowerButton.findIndexOfValue((String) newValue);
@@ -80,7 +80,7 @@ public class PowerSettings extends SettingsPreferenceFragment implements
                         1);
             }
             return true;
-        }*/
+        }
 
         return false;
     }
