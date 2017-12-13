@@ -21,13 +21,13 @@
         android:key="apps_security"
         android:title="@string/apps_security_options_title" >
 
-       <!--  <ListPreference
+       <ListPreference
             android:key="sms_outgoing_check_max_count"
             android:title="@string/sms_outgoing_check_max_count_title"
             android:dialogTitle="@string/sms_outgoing_check_max_count_dialog"
             android:entries="@array/sms_outgoing_check_max_count_entries"
             android:entryValues="@array/sms_outgoing_check_max_count_values"
             android:summary="%s"
-        android:defaultValue="30" />-->
+            android:defaultValue="30" />
     </PreferenceCategory>
 </PreferenceScreen>
