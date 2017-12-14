@@ -23,7 +23,7 @@
         android:entries="@array/torch_power_button_gesture_entries"
         android:entryValues="@array/torch_power_button_gesture_values" />
 
-    <!-- <com.abc.settings.preferences.SecureSettingSwitchPreference
+    <com.abc.settings.preferences.SecureSettingSwitchPreference
         android:key="lockscreen_power_menu_disabled"
         android:title="@string/lockscreen_power_menu_disabled_title"
         android:summary="@string/lockscreen_power_menu_disabled_summary"
@@ -33,7 +33,7 @@
         android:key="vibration_on_charge_state_changed"
         android:title="@string/vibration_on_charge_state_changed_title"
         android:summary="@string/vibration_on_charge_state_changed_summary"
-        android:defaultValue="true" />-->
+        android:defaultValue="true" />
 
     <com.abc.settings.preferences.SystemSettingSwitchPreference
         android:key="wake_when_plugged_or_unplugged"
