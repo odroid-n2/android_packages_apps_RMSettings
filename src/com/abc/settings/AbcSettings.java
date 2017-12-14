@@ -36,16 +36,13 @@ public class AbcSettings extends SettingsPreferenceFragment {
         addPreferencesFromResource(R.xml.abc_settings_main);
         PreferenceScreen prefSet = getPreferenceScreen();
 
-        /*mLedsCategory = (PreferenceCategory) findPreference("abc_leds");
+        mLedsCategory = (PreferenceCategory) findPreference("abc_leds");
         mChargingLeds = (Preference) findPreference("abc_charging_light");
         if (mChargingLeds != null
                 && !getResources().getBoolean(
                         com.android.internal.R.bool.config_intrusiveBatteryLed)) {
             mLedsCategory.removePreference(mChargingLeds);
         }
-        if (mChargingLeds == null) {
-            prefSet.removePreference(mLedsCategory);
-        }*/
     }
 
     @Override

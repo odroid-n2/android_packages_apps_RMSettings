@@ -68,7 +68,7 @@
 
     </PreferenceCategory>
 
-    <!-- <PreferenceCategory
+    <PreferenceCategory
         android:key="abc_leds"
         android:title="@string/abc_leds" >
 
@@ -82,5 +82,5 @@
             android:fragment="com.android.settings.applications.NotificationApps"
         android:title="@string/abc_notification_light_settings" />
 
-    </PreferenceCategory>-->
+    </PreferenceCategory>
 </PreferenceScreen>
