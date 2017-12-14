@@ -33,7 +33,7 @@
             android:summary="@string/qs_brightness_slider_summary"
             android:defaultValue="true"/>
 
-        <!--<com.abc.settings.preferences.SystemSettingSwitchPreference
+        <com.abc.settings.preferences.SystemSettingSwitchPreference
             android:key="qs_footer_warnings"
             android:title="@string/qs_footer_warnings_title"
             android:summary="@string/qs_footer_warnings_summary"
@@ -47,7 +47,7 @@
         <com.abc.settings.preferences.SystemSettingSwitchPreference
             android:key="qs_tile_title_visibility"
             android:title="@string/qs_tile_title_visibility_title"
-        android:defaultValue="false" />-->
+        android:defaultValue="false" />
     </PreferenceCategory>
 
     <!--<PreferenceCategory
