@@ -45,13 +45,6 @@
             android:fragment="com.abc.settings.FlingSettings" />
 
         <Preference
-            android:key="default_settings"
-            android:title="@string/default_settings">
-            <intent android:action="android.intent.action.MAIN"
-                android:targetPackage="com.android.systemui"
-                android:targetClass="com.android.systemui.tuner.TunerActivity" />
-        </Preference>
-        <Preference
                 android:key="default_settings"
                 android:title="@string/navbar_buttons_title"
                 android:summary="@string/navbar_buttons_summary">
