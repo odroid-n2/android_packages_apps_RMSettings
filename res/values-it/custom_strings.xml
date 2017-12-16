@@ -166,4 +166,9 @@
     <string name="slim_blacklist_apps_summary">Apps da non mostrare nel pannello</string>
     <string name="slim_blacklist_add_apps_title">Aggiungi app</string>
     <string name="slim_blacklist_add_apps_summary">Tap qui per aggiungere, tap su un\'app aggiunta per rimuoverla</string>
+
+    <string name="systemui_theme_style_title">Stile menu power e pannello tiles</string>
+    <string name="systemui_theme_style_auto">Basato sullo sfondo</string>
+    <string name="systemui_theme_style_light">Light</string>
+    <string name="systemui_theme_style_dark">Dark</string>
 </resources>
