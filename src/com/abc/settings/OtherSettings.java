@@ -35,9 +35,11 @@ public class OtherSettings extends SettingsPreferenceFragment implements
 
     private static final String APPS_SECURITY = "apps_security";
     private static final String SMS_OUTGOING_CHECK_MAX_COUNT = "sms_outgoing_check_max_count";
+    private static final String SYSTEMUI_THEME_STYLE = "systemui_theme_style";
 
     private ListPreference mSmsCount;
     private int mSmsCountValue;
+    private ListPreference mSystemUIThemeStyle;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -59,6 +61,15 @@ public class OtherSettings extends SettingsPreferenceFragment implements
             appsSecCategory.removePreference(mSmsCount);
             prefScreen.removePreference(appsSecCategory);
         }
+
+        mSystemUIThemeStyle = (ListPreference) findPreference(SYSTEMUI_THEME_STYLE);
+        int systemUIThemeStyle = Settings.System.getInt(resolver,
+                Settings.System.SYSTEM_UI_THEME, 0);
+        int valueIndex = mSystemUIThemeStyle.findIndexOfValue(String.valueOf(systemUIThemeStyle));
+        mSystemUIThemeStyle.setValueIndex(valueIndex >= 0 ? valueIndex : 0);
+        mSystemUIThemeStyle.setSummary(mSystemUIThemeStyle.getEntry());
+        mSystemUIThemeStyle.setOnPreferenceChangeListener(this);
+
     }
 
     @Override
@@ -82,6 +93,13 @@ public class OtherSettings extends SettingsPreferenceFragment implements
                     mSmsCount.getEntries()[index]);
             Settings.Global.putInt(resolver,
                     Settings.Global.SMS_OUTGOING_CHECK_MAX_COUNT, mSmsCountValue);
+            return true;
+        } else if (preference == mSystemUIThemeStyle) {
+            String value = (String) newValue;
+            Settings.System.putInt(resolver,
+                    Settings.System.SYSTEM_UI_THEME, Integer.valueOf(value));
+            int valueIndex = mSystemUIThemeStyle.findIndexOfValue(value);
+            mSystemUIThemeStyle.setSummary(mSystemUIThemeStyle.getEntries()[valueIndex]);
             return true;
         }
         return false;
