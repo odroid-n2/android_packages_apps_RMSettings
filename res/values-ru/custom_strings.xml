@@ -17,7 +17,7 @@
     <!-- Main abc pref screens -->
     <string name="abc_settings_title">Дополнительные настройки</string>
     <string name="abc_interface">Интерфейс</string>
-    <string name="lockscreen_abc_settings_title">Экран блокировки и безопасность</string>
+    <string name="lockscreen_abc_settings_title">Настройки блокировки</string>
     <string name="notification_drawer_settings_title">Панель быстрых настроек</string>
     <string name="statusbar_settings_title">Строка состояния</string>
     <string name="abc_sys">Разные настройки</string>
@@ -35,9 +35,9 @@
     <string name="set">Выбрать</string>
     <string name="color_default">По умолчанию</string>
 
-    <string name="double_tap_sleep_lockscreen">Двойное нажатие по экр. блок. для сна</string>
+    <string name="double_tap_sleep_lockscreen">Двойное нажатие по экрану блокировки для сна</string>
 
-    <string name="swap_volume_buttons">Менять местами кнопки громк. при повороте экр.</string>
+    <string name="swap_volume_buttons">Менять местами кнопки громкости при повороте экрана</string>
     <string name="volume_keys_control_media_stream_title">Управление медиа</string>
     <string name="volume_keys_control_media_stream_summary">Кнопки громкости регулируют громкость мультимедиа</string>
 
@@ -87,7 +87,7 @@
     <string name="qs_footer_warnings_title">Предупреждение в нижней части</string>
     <string name="qs_footer_warnings_summary">Показывать предупреждение в нижней панели быстрых настроек, когда сеть контролируется приложениями или VPN</string>
 
-    <string name="double_tap_sleep_gesture_title">Двойное нажатие по стр. сост. для сна</string>
+    <string name="double_tap_sleep_gesture_title">Двойное нажатие по строке состояния для сна</string>
 
     <!--SysUI tuner options -->
     <string name="status_bar_icon_blacklist_title">Иконки строки состояния</string>
@@ -113,7 +113,7 @@
     <string name="qs_cat_title">Панель быстрых настроек</string>
 
     <!-- Heads up options -->
-    <string name="less_boring_heads_up_title">Менее доставучие всплыв. уведомл.</string>
+    <string name="less_boring_heads_up_title">Менее доставучие всплывающие уведомления</string>
     <string name="less_boring_heads_up_summary">Не отображать всплывающие уведомления для открытого приложения, если это не приложение для звонков или сообщений</string>
 
     <!-- QS rows and columns -->
@@ -125,13 +125,13 @@
     <string name="qs_tile_title_visibility_title">Отображать подписи плиток</string>
 
     <!-- Statusbar net monitor -->
-    <string name="network_traffic_state_title">Отобр. скор. передачи дан. в стр. сост.</string>
+    <string name="network_traffic_state_title">Отображать скорость передачи данных в строке состояния</string>
     <string name="network_traffic_autohide_threshold_title">Порог неактивности (KB/s)</string>
 
     <!-- Power plug events -->
     <string name="wake_when_plugged_or_unplugged_title">Пробуждение при зарядке</string>
     <string name="wake_when_plugged_or_unplugged_summary">Пробуждать устройство при подключении/отключении зарядного устройства.</string>
-    <string name="vibration_on_charge_state_changed_title">Вибрирация при зарядке</string>
+    <string name="vibration_on_charge_state_changed_title">Вибрация при зарядке</string>
     <string name="vibration_on_charge_state_changed_summary">Вибрировать при подключении/отключении зарядного устройства.</string>
 
     <!-- Headset ringtone audio focus -->
