@@ -99,7 +99,7 @@
     <string name="qs_cat_title">Pannello tiles</string>
 
     <string name="less_boring_heads_up_title">Heads up meno intrusive</string>
-    <string name="less_boring_heads_up_summary">Mostra le heads up solo per telefono e SMS quando le app non sono in primo piano</string>
+    <string name="less_boring_heads_up_summary">Mostra le heads up solo per telefono e SMS</string>
 
     <string name="qs_rows_columns_title">Colonne e righe pannello tiles</string>
     <string name="qs_rows_portrait_title">Righe in modalità portrait</string>

@@ -114,7 +114,7 @@
 
     <!-- Heads up options -->
     <string name="less_boring_heads_up_title">Менее доставучие всплывающие уведомления</string>
-    <string name="less_boring_heads_up_summary">Не отображать всплывающие уведомления для открытого приложения, если это не приложение для звонков или сообщений</string>
+    <string name="less_boring_heads_up_summary">Отображать всплывающие уведомления только для звонков и сообщений</string>
 
     <!-- QS rows and columns -->
     <string name="qs_rows_columns_title">Ряды и столбцы</string>
