@@ -367,4 +367,7 @@
     <string name="systemui_theme_style_auto">Авто (по обоям)</string>
     <string name="systemui_theme_style_light">Светлый</string>
     <string name="systemui_theme_style_dark">Темный</string>
+
+    <string name="notification_sound_vib_screen_on_title">Шумные уведомления при включенном экране</string>
+    <string name="notification_sound_vib_screen_on_summary">Отключите, чтобы блокировать звуковой сигнал и/или вибрацию при получении уведомления, когда экран включен</string>
 </resources>
