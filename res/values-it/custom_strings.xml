@@ -171,4 +171,7 @@
     <string name="systemui_theme_style_auto">Basato sullo sfondo</string>
     <string name="systemui_theme_style_light">Light</string>
     <string name="systemui_theme_style_dark">Dark</string>
+
+    <string name="notification_sound_vib_screen_on_title">Notifiche rumorose a schermo acceso</string>
+    <string name="notification_sound_vib_screen_on_summary">Disattivare per bloccare il suono e la vibrazione delle notifiche quando lo schermo è acceso</string>
 </resources>
