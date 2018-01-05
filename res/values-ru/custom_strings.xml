@@ -216,9 +216,6 @@
     <string name="select_custom_activity_title">Выбрать пользовательское действие</string>
     <string name="profile_applist_title">Приложения</string>
     <string name="default_string">По умолчанию</string>
-    <string name="default_settings">Настройки по умолчанию</string>
-    <string name="default_settings_summary">Панель навигации по умолчанию</string>
-
 
     <!-- Actions dialog and default task values set in ActionPreference xml-->
     <string name="choose_action_title">Выберите действие</string>
