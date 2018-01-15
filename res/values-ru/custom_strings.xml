@@ -18,7 +18,7 @@
     <string name="abc_settings_title">Дополнительные настройки</string>
     <string name="abc_interface">Интерфейс</string>
     <string name="lockscreen_abc_settings_title">Настройки блокировки</string>
-    <string name="notification_drawer_settings_title">Панель быстрых настроек</string>
+    <string name="notification_drawer_settings_title">Панель быст. настр. и уведомл.</string>
     <string name="statusbar_settings_title">Строка состояния</string>
     <string name="abc_sys">Разные настройки</string>
     <string name="power_settings_title">Настройки питания</string>
@@ -365,6 +365,8 @@
     <string name="systemui_theme_style_light">Светлый</string>
     <string name="systemui_theme_style_dark">Темный</string>
 
-    <string name="notification_sound_vib_screen_on_title">Шумные уведомления при включенном экране</string>
-    <string name="notification_sound_vib_screen_on_summary">Отключите, чтобы блокировать звуковой сигнал и/или вибрацию при получении уведомления, когда экран включен</string>
+    <string name="notification_sound_vib_screen_on_title">Звук и вибрация уведомлений при включенном экране</string>
+    <string name="notification_sound_vib_screen_on_never">Никогда</string>
+    <string name="notification_sound_vib_screen_on_always">Всегда (по умолчанию)</string>
+    <string name="notification_sound_vib_screen_on_nomedia">Когда медиа не вопроизводится</string>
 </resources>
