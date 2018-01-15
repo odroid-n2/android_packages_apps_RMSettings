@@ -18,7 +18,7 @@
     <string name="abc_settings_title">Дополнительные настройки</string>
     <string name="abc_interface">Интерфейс</string>
     <string name="lockscreen_abc_settings_title">Настройки блокировки</string>
-    <string name="notification_drawer_settings_title">Панель быст. настр. и уведомл.</string>
+    <string name="notification_drawer_settings_title">Уведомления и тайлы</string>
     <string name="statusbar_settings_title">Строка состояния</string>
     <string name="abc_sys">Разные настройки</string>
     <string name="power_settings_title">Настройки питания</string>
@@ -28,7 +28,7 @@
     <string name="abc_leds">Индикатор уведомлений</string>
     <string name="abc_battery_light_settings">Индикация батареи</string>
     <string name="abc_notification_light_settings">Индикация уведомлений</string>
-    <string name="recent_settings_title">Панель недавних приложений</string>
+    <string name="recent_settings_title">Недавние приложения</string>
     <!-- Color Picker -->
     <string name="dialog_color_picker">Выбор цвета</string>
     <string name="press_color_to_apply">Нажмите на цвет, чтобы применить</string>
@@ -369,4 +369,5 @@
     <string name="notification_sound_vib_screen_on_never">Никогда</string>
     <string name="notification_sound_vib_screen_on_always">Всегда (по умолчанию)</string>
     <string name="notification_sound_vib_screen_on_nomedia">Когда медиа не вопроизводится</string>
+
 </resources>
