@@ -46,6 +46,12 @@
         android:entries="@array/headset_connect_player_entries"
         android:entryValues="@array/headset_connect_player_values" />
 
+    <com.abc.settings.preferences.SystemSettingSwitchPreference
+        android:key="force_ambient_for_media"
+        android:title="@string/force_ambient_for_media_title"
+        android:summary="@string/force_ambient_for_media_summary"
+        android:defaultValue="false" />
+
     <PreferenceCategory
         android:key="vol_dnd_category"
         android:title="@string/vol_dnd_category_title" >
