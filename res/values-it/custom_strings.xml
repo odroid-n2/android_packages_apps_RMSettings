@@ -177,6 +177,12 @@
     <string name="notification_sound_vib_screen_on_always">Sempre (predefinito)</string>
     <string name="notification_sound_vib_screen_on_nomedia">Se nessun media in riproduzione</string>
 
-    <string name="force_ambient_for_media_title">Notifiche Ambient per nuove tracce</string>
-    <string name="force_ambient_for_media_summary">Mostra una notifica Ambient Display quando una nuova traccia è riprodotta</string>
+    <string name="force_ambient_for_media_pref_title">Ambient Music Ticker</string>
+    <string name="force_ambient_for_media_pref_summary">Configura l\'Ambient Music Ticker</string>
+    <string name="ambient_ticker_footer">L\'AMT permette di mostrare le informazioni sulla traccia musicale in riproduzione nella schermata delle notifiche Ambient Display.\n\nSe attivato, mostrerà le info con le normali notifiche Ambient.\n\nSe forzato, forzerà anche una nuova notifica Ambient in caso di nuova traccia riprodotta.\n\nLa modalità minima farà lo stesso ma usando un layout minimo (orologio nascosto e info traccia al centro dello schermo) per le notifiche forzate (le normali notifiche Ambient mostreranno comunque l\'orologio.</string>
+    <string name="force_ambient_for_media_title">Info traccia nell\'Ambient Display</string>
+    <string name="force_ambient_for_media_off">Disattivato</string>
+    <string name="force_ambient_for_media_on">Attivato</string>
+    <string name="force_ambient_for_media_on_forced">Attivato e forzato</string>
+    <string name="force_ambient_for_media_on_forced_clean">Attivato, forzato e minimale</string>
 </resources>
