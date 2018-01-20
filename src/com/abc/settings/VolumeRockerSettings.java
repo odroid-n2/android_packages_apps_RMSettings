@@ -33,12 +33,10 @@ public class VolumeRockerSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
 
     private static final String HEADSET_CONNECT_PLAYER = "headset_connect_player";
-    private static final String RINGTONE_FOCUS_MODE = "ringtone_focus_mode";
-    private static final String FORCE_AMBIENT_FOR_MEDIA = "force_ambient_for_media";
+    //private static final String RINGTONE_FOCUS_MODE = "ringtone_focus_mode";
 
     private ListPreference mLaunchPlayerHeadsetConnection;
     private ListPreference mHeadsetRingtoneFocus;
-    private ListPreference mAmbientTicker;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -60,12 +58,6 @@ public class VolumeRockerSettings extends SettingsPreferenceFragment implements
         mHeadsetRingtoneFocus.setSummary(mHeadsetRingtoneFocus.getEntry());
         mHeadsetRingtoneFocus.setOnPreferenceChangeListener(this);*/
 
-        mAmbientTicker = (ListPreference) findPreference(FORCE_AMBIENT_FOR_MEDIA);
-        int mode = Settings.System.getIntForUser(resolver,
-                Settings.System.FORCE_AMBIENT_FOR_MEDIA, 0, UserHandle.USER_CURRENT);
-        mAmbientTicker.setValue(Integer.toString(mode));
-        mAmbientTicker.setSummary(mAmbientTicker.getEntry());
-        mAmbientTicker.setOnPreferenceChangeListener(this);
     }
 
     @Override
@@ -83,23 +75,15 @@ public class VolumeRockerSettings extends SettingsPreferenceFragment implements
             Settings.System.putIntForUser(resolver, Settings.System.HEADSET_CONNECT_PLAYER,
                     mLaunchPlayerHeadsetConnectionValue, UserHandle.USER_CURRENT);
             return true;
-        /*} else if (preference == mHeadsetRingtoneFocus) {
+        }/* else if (preference == mHeadsetRingtoneFocus) {
             int mHeadsetRingtoneFocusValue = Integer.valueOf((String) newValue);
             int index = mHeadsetRingtoneFocus.findIndexOfValue((String) newValue);
             mHeadsetRingtoneFocus.setSummary(
                     mHeadsetRingtoneFocus.getEntries()[index]);
             Settings.Global.putInt(resolver, Settings.Global.RINGTONE_FOCUS_MODE,
                     mHeadsetRingtoneFocusValue);
-            return true;*/
-        } else if (preference == mAmbientTicker) {
-            int mode = Integer.valueOf((String) newValue);
-            int index = mAmbientTicker.findIndexOfValue((String) newValue);
-            mAmbientTicker.setSummary(
-                    mAmbientTicker.getEntries()[index]);
-            Settings.System.putIntForUser(resolver, Settings.System.FORCE_AMBIENT_FOR_MEDIA,
-                    mode, UserHandle.USER_CURRENT);
             return true;
-        }
+        }*/
         return false;
     }
 }
