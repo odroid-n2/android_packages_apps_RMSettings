@@ -109,12 +109,12 @@
     <string name="doze_always_on_summary">Ambient Display будет включен пока ничто не перекрывает датчик приближения</string>
     <string name="powern_notifications_title">Расширенное управление уведомлениями</string>
     <string name="powern_notifications_summary">Дополнительные настройки уведомлений по долгому нажатию</string>
-    <string name="notifications_category_title">Уведомления</string>
+    <string name="notifications_category_title">Защита от раздражающих уведомлений</string>
     <string name="qs_cat_title">Панель быстрых настроек</string>
 
     <!-- Heads up options -->
-    <string name="less_boring_heads_up_title">Менее доставучие всплывающие уведомления</string>
-    <string name="less_boring_heads_up_summary">Отображать всплывающие уведомления только для звонков и сообщений</string>
+    <string name="less_boring_heads_up_title">Менее надоедливые всплывающие уведомления</string>
+    <string name="less_boring_heads_up_summary">Всплывающие уведомления только для звонков и сообщений</string>
 
     <!-- QS rows and columns -->
     <string name="qs_rows_columns_title">Ряды и столбцы</string>
@@ -381,5 +381,14 @@
     <string name="force_ambient_for_media_on">Обычный</string>
     <string name="force_ambient_for_media_on_forced">Обычный (принудительно)</string>
     <string name="force_ambient_for_media_on_forced_clean">Упрощенный (принудительно)</string>
+
+    <!-- Less Notification sounds -->
+    <string name="less_notification_sounds_title">Снизить частоту звуков уведомлений</string>
+    <string name="less_notification_sounds_summary">Ограничить звуки уведомлений: каждое приложение воспроизводит звук один раз в заданный временной отрезок</string>
+    <string name="less_notification_sounds_default">По умолчанию</string>
+    <string name="less_notification_sounds_10s">10 секунд</string>
+    <string name="less_notification_sounds_30s">30 секунд</string>
+    <string name="less_notification_sounds_1m">1 минута</string>
+    <string name="less_notification_sounds_2m">2 минуты</string>
 
 </resources>
