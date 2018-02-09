@@ -193,4 +193,7 @@
     <string name="less_notification_sounds_30s">Ogni 30 secondi</string>
     <string name="less_notification_sounds_1m">Ogni minuto</string>
     <string name="less_notification_sounds_2m">Ogni 2 minuti</string>
+
+    <string name="system_dark_theme_toast_before">Caricamento tema...</string>
+    <string name="system_dark_theme_toast_after">Tema applicato!</string>
 </resources>

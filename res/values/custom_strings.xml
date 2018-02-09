@@ -403,4 +403,7 @@
     <string name="less_notification_sounds_30s">Every 30 seconds</string>
     <string name="less_notification_sounds_1m">Every minute</string>
     <string name="less_notification_sounds_2m">Every 2 minutes</string>
+
+    <string name="system_dark_theme_toast_before">Applying theme! Please wait...</string>
+    <string name="system_dark_theme_toast_after">Theme applied!</string>
 </resources>
