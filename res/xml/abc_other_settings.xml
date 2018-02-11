@@ -17,13 +17,6 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-    <ListPreference
-        android:key="systemui_theme_style"
-        android:title="@string/systemui_theme_style_title"
-        android:persistent="false"
-        android:entries="@array/systemui_theme_style_entries"
-        android:entryValues="@array/systemui_theme_style_values" />
-
     <PreferenceCategory
         android:key="apps_security"
         android:title="@string/apps_security_options_title" >

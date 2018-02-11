@@ -363,11 +363,6 @@
     <string name="smartbar_double_tap_sleep_title">Спящий режим</string>
     <string name="smartbar_double_tap_sleep_summary">Дважды коснитесь панели навигации для перевода устройства в спящий режим</string>
 
-    <string name="systemui_theme_style_title">Стиль оформления</string>
-    <string name="systemui_theme_style_auto">Авто (по обоям)</string>
-    <string name="systemui_theme_style_light">Светлый</string>
-    <string name="systemui_theme_style_dark">Темный</string>
-
     <string name="notification_sound_vib_screen_on_title">Звук и вибрация уведомлений при включенном экране</string>
     <string name="notification_sound_vib_screen_on_never">Никогда</string>
     <string name="notification_sound_vib_screen_on_always">Всегда (по умолчанию)</string>
