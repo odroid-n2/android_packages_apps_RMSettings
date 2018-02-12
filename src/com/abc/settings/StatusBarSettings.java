@@ -19,6 +19,7 @@ import android.content.ContentResolver;
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.os.UserHandle;
+import android.support.v7.preference.ListPreference;
 import android.support.v7.preference.Preference;
 import android.provider.Settings;
 
@@ -31,8 +32,11 @@ import com.android.settings.SettingsPreferenceFragment;
 public class StatusBarSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
 
+    private static final String BATTERY_STYLE = "battery_style";
+
     private CustomSeekBarPreference mThreshold;
     private SystemSettingSwitchPreference mNetMonitor;
+    private ListPreference mBatteryIconStyle;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -52,6 +56,11 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
         mThreshold.setValue(value);
         mThreshold.setOnPreferenceChangeListener(this);
         mThreshold.setEnabled(isNetMonitorEnabled);
+
+        mBatteryIconStyle = (ListPreference) findPreference(BATTERY_STYLE);
+        mBatteryIconStyle.setValue(Integer.toString(Settings.Secure.getInt(resolver,
+                Settings.Secure.STATUS_BAR_BATTERY_STYLE, 0)));
+        mBatteryIconStyle.setOnPreferenceChangeListener(this);
     }
 
     @Override
@@ -73,6 +82,11 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
             Settings.System.putIntForUser(getContentResolver(),
                     Settings.System.NETWORK_TRAFFIC_AUTOHIDE_THRESHOLD, val,
                     UserHandle.USER_CURRENT);
+            return true;
+        } else  if (preference == mBatteryIconStyle) {
+            int value = Integer.valueOf((String) newValue);
+            Settings.Secure.putInt(getContentResolver(),
+                    Settings.Secure.STATUS_BAR_BATTERY_STYLE, value);
             return true;
         }
         return false;
