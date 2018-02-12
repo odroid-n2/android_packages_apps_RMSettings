@@ -310,7 +310,8 @@
         <item>@string/battery_style_land</item>
         <item>@string/battery_style_circle</item>
         <item>@string/battery_style_dotted_circle</item>
-        <item>@string/battery_style_solid_circle</item>
+        <item>@string/battery_style_big_circle</item>
+        <item>@string/battery_style_big_dotted_circle</item>
         <item>@string/battery_style_text</item>
         <item>@string/battery_style_hidden</item>
     </string-array>
@@ -323,5 +324,6 @@
         <item>4</item>
         <item>5</item>
         <item>6</item>
+        <item>7</item>
     </string-array>
 </resources>
