@@ -449,4 +449,6 @@
     <string name="show_battery_percent_summary">Show battery level percentage near the icon</string>
     <string name="battery_style_category_title">Battery level</string>
 
+    <string name="incall_notifications_vibrate">Less annoying in-call notifications</string>
+    <string name="incall_notifications_vibrate_summary">Vibrate instead of playing a sound for in-call notifications</string>
 </resources>
