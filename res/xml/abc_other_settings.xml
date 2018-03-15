@@ -30,4 +30,9 @@
             android:summary="%s"
             android:defaultValue="30" />
     </PreferenceCategory>
+
+    <Preference
+        android:key="screenshot_edit_app"
+        android:title="@string/screenshot_edit_app"
+        android:summary="@string/screenshot_edit_app_summary" />
 </PreferenceScreen>

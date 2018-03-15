@@ -240,4 +240,8 @@
     <string name="clock_date_right">A destra dell\'ora</string>
     <string name="clock_date_left">A sinistra dell\'ora</string>
     <string name="clock_date_position">Posizione data</string>
+
+    <string name="screenshot_edit_app">Editor screenshots</string>
+    <string name="screenshot_edit_app_summary">Scegli l\'app da usare come editor degli screenshots tramite il pulsante Modifica nella notifica</string>
+    <string name="screenshot_edit_app_no_editor">Nessun editor disponibile</string>
 </resources>
