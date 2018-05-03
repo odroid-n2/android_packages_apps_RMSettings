@@ -244,4 +244,10 @@
     <string name="screenshot_edit_app">Editor screenshots</string>
     <string name="screenshot_edit_app_summary">Scegli l\'app da usare come editor degli screenshots tramite il pulsante Modifica nella notifica</string>
     <string name="screenshot_edit_app_no_editor">Nessun editor disponibile</string>
+
+    <string name="chooser_activity_blacklist_title">Blacklist Chooser Activity</string>
+    <string name="chooser_activity_blacklist_summary">Apps da non mostrare quando viene premuto il pulsante Condividi nelle app e il sistema</string>
+    <string name="chooser_activity_blacklist_cat_title">Blacklist</string>
+    <string name="chooser_activity_blacklist_pref_title">Aggiungi app</string>
+    <string name="chooser_activity_blacklist_pref_summary">Tap qui per aggiungere, tap su un\'app aggiunta per rimuoverla</string>
 </resources>
