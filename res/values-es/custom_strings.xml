@@ -448,5 +448,11 @@
     <string name="screenshot_edit_app">Editor de capturas</string>
     <string name="screenshot_edit_app_summary">Selecciona el editor de imagenes para modificar las capturas</string>
     <string name="screenshot_edit_app_no_editor">Ningun editor disponible</string>
+     
+    <string name="chooser_activity_blacklist_title">Selector actividades lista negra</string>
+    <string name="chooser_activity_blacklist_summary">Las aplicaciones no se mostrarán cuando se presione el botón Compartir en la aplicación y el sistema</string>
+    <string name="chooser_activity_blacklist_cat_title">Lista negra</string>
+    <string name="chooser_activity_blacklist_pref_title">Agregar aplicación</string>
+    <string name="chooser_activity_blacklist_pref_summary">Toque aquí para agregar, toca en una agregada para eliminarla</string>
 
 </resources>
