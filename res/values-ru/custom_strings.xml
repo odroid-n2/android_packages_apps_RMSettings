@@ -189,6 +189,7 @@
     <string name="slim_blacklist_apps_summary">Приложения не будут отображаться в панели</string>
     <string name="slim_blacklist_add_apps_title">Добавить приложение</string>
     <string name="slim_blacklist_add_apps_summary">Нажмите здесь чтобы добавить, нажмите по добавленному приложению чтобы убрать</string>
+    <string name="slim_recents_hints_footer">Чтобы очистить все приложения, сделайте щипок по панели. Чтобы заблокировать очистку данного приложения, зажмите его иконку, возле нее должна появиться звезда.\n\nНедавние приложения Slim позволяют динамически вызывать мультиоконный режим: перетащите приложение A выше или ниже приложения B чтобы начать мультиоконную сессию с приложением A сверху и приложением B снизу, или наоборот.\n\nЧтобы принудительно закрыть приложение и все процессы связанные с ним, нажмите на три точки в карточке приложения, после на иконку бомбы.</string> 
 
     <!-- Navigation -->
     <string name="buttons_title">Кнопки</string>
@@ -278,6 +279,17 @@
     <string name="fling_keyboard_cursors_title">Управление курсором</string>
     <string name="fling_keyboard_cursors_summary">Двойное нажатие слева и справа перемещают курсор при открытой клавиатуре</string>
     <string name="fling_logo_opacity_title">Прозрачность логотипа Fling</string>
+    <string name="fling_factory_reset_title">Сброс настроек</string>
+    <string name="fling_factory_reset_confirm">Вы действительно хотите сбросить все пользовательские настройки Fling?</string>
+    <string name="fling_backup_current_config_title">Сохранить профиль</string>
+    <string name="fling_restore_config_title">Восстановить профиль</string>
+    <string name="fling_config_name_edit_dialog_title">Имя профиля Fling</string>
+    <string name="fling_config_name_edit_dialog_message">Введите название или оставьте поле пустым</string>
+    <string name="fling_config_dialog_title">Профили Fling</string>
+    <string name="fling_config_backup_success_toast">Профиль Fling успешно сохранен</string>
+    <string name="fling_config_restore_success_toast">Профиль Fling успешно восстановлен</string>
+    <string name="fling_config_backup_error_toast">Ошибка при сохранении профиля Fling</string>
+    <string name="fling_config_restore_error_toast">Ошибка при восстановлении профиля Fling</string> 
 
     <!-- Pulse navigation bar music visualizer -->
     <string name="pulse_help_policy_notice_summary">Pulse не работает с некоторыми проигрывателями при прослушивании через динамик телефона</string>
@@ -387,7 +399,7 @@
     <string name="less_notification_sounds_1m">1 минута</string>
     <string name="less_notification_sounds_2m">2 минуты</string>
 
-    <!-- Clock and date settings -->
+    <!-- Status bar clock options -->
     <string name="status_bar_clock">Часы и дата</string>
     <string name="status_bar_clock_summary">Пользовательские настройки расположения часов и даты</string>
     <string name="clock_title_enable">Расположение</string>
@@ -440,4 +452,14 @@
 
     <string name="incall_notifications_vibrate">Менее надоедливые уведомления во время вызова</string>
     <string name="incall_notifications_vibrate_summary">Вибрация вместо звукового сигнала для уведомлений во время вызова</string>
+ 
+    <string name="screenshot_edit_app">Редактор снимков экрана</string>
+    <string name="screenshot_edit_app_summary">Выберите каким графическим редактором изменять снимки экрана</string>
+    <string name="screenshot_edit_app_no_editor">На устройстве не установлено графических редакторов</string> 
+
+    <string name="chooser_activity_blacklist_title">Черный список блока выбора приложений</string>
+    <string name="chooser_activity_blacklist_summary">Приложения, которые не будут отображаться при нажатии кнопки «Поделиться»</string>
+    <string name="chooser_activity_blacklist_cat_title">Черный список</string>
+    <string name="chooser_activity_blacklist_pref_title">Добавить приложение</string>
+    <string name="chooser_activity_blacklist_pref_summary">Нажмите здесь, чтобы добавить приложение; нажмите на добавленное приложение, чтобы убрать его из списка</string> 
 </resources>
