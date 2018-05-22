@@ -169,7 +169,8 @@
 
     <string name="slim_recents_hints_footer">Per rimuovere le app recenti, esegui un pinch-in sul pannello stesso. Per impedire che un\'app venga rimossa, premi a lungo sulla sua icona per salvarla come favorita.\n\nPer altre funzioni muovi o premi a lungo su una card</string>
 
-    <string name="notification_sound_vib_screen_on_title">Notifiche rumorose a schermo acceso</string>
+    <string name="notification_sound_vib_screen_on_title">Notifica sonora a schermo acceso</string>
+    <string name="notification_sound_vib_screen_on_summary">Riproduci suono e vibrazione per le notifiche quando lo schermo è acceso</string>
 
     <string name="incall_notifications_vibrate">Notifiche in chiamata meno intrusive</string>
     <string name="incall_notifications_vibrate_summary">Vibra invece di suonare per le notifiche durante le chiamate</string>
@@ -248,4 +249,18 @@
     <string name="chooser_activity_blacklist_cat_title">Blacklist</string>
     <string name="chooser_activity_blacklist_pref_title">Aggiungi app</string>
     <string name="chooser_activity_blacklist_pref_summary">Tap qui per aggiungere, tap su un\'app aggiunta per rimuoverla</string>
+
+    <string name="color_picker_simple_dialog_title">Seleziona un colore per il led</string>
+
+     <string name="lockscreen_clock_style_category_title">Stile elementi lockscreen e ambient</string>
+    <string name="lockscreen_clock_selection_title">Stile orologio</string>
+    <string name="lockscreen_clock_selection_digital">Default</string>
+    <string name="lockscreen_clock_selection_digital_bold">Digitale (grassetto)</string>
+    <string name="lockscreen_clock_selection_analog">Analogico</string>
+    <string name="lockscreen_clock_selection_sammy">Sammy</string>
+    <string name="lockscreen_clock_selection_sammy_bold">Sammy (grassetto)</string>
+    <string name="lockscreen_date_selection_title">Stile data</string>
+    <string name="lockscreen_date_selection_default">Default</string>
+    <string name="lockscreen_date_selection_str_box">Box semi trasparente</string>
+    <string name="lockscreen_date_selection_str_round">Box semi trasparente (tondo)</string>
 </resources>
