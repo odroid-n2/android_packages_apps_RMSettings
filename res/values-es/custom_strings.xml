@@ -371,9 +371,6 @@
     <string name="smartbar_double_tap_sleep_summary">Doble toque para dormir en lugares vacíos</string>
 
     <string name="notification_sound_vib_screen_on_title">Notificaciones y vibración si la pantalla esta encendida</string>
-    <string name="notification_sound_vib_screen_on_never">Nunca</string>
-    <string name="notification_sound_vib_screen_on_always">Siempre (por defecto)</string>
-    <string name="notification_sound_vib_screen_on_nomedia">Si no esta sonando música</string>
 
     <string name="force_ambient_for_media_pref_title">Teletipo Ambiente de música</string>
     <string name="force_ambient_for_media_pref_summary">Configurar el teletipo de música ambiente</string>

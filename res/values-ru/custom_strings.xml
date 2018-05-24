@@ -377,9 +377,6 @@
     <string name="smartbar_double_tap_sleep_summary">Дважды коснитесь панели навигации для перевода устройства в спящий режим</string>
 
     <string name="notification_sound_vib_screen_on_title">Звук и вибрация уведомлений при включенном экране</string>
-    <string name="notification_sound_vib_screen_on_never">Никогда</string>
-    <string name="notification_sound_vib_screen_on_always">Всегда (по умолчанию)</string>
-    <string name="notification_sound_vib_screen_on_nomedia">Когда медиа не вопроизводится</string>
 
     <string name="force_ambient_for_media_pref_title">Функция «Now Playing»</string>
     <string name="force_ambient_for_media_pref_summary">Информация о текущем треке в режиме «Ambient Display»</string>

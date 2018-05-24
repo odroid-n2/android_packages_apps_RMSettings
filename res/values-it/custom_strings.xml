@@ -170,9 +170,7 @@
     <string name="slim_recents_hints_footer">Per rimuovere le app recenti, esegui un pinch-in sul pannello stesso. Per impedire che un\'app venga rimossa, premi a lungo sulla sua icona per salvarla come favorita.\n\nPer altre funzioni muovi o premi a lungo su una card</string>
 
     <string name="notification_sound_vib_screen_on_title">Notifiche rumorose a schermo acceso</string>
-    <string name="notification_sound_vib_screen_on_never">Mai</string>
-    <string name="notification_sound_vib_screen_on_always">Sempre (predefinito)</string>
-    <string name="notification_sound_vib_screen_on_nomedia">Se nessun media in riproduzione</string>
+
     <string name="incall_notifications_vibrate">Notifiche in chiamata meno intrusive</string>
     <string name="incall_notifications_vibrate_summary">Vibra invece di suonare per le notifiche durante le chiamate</string>
 
