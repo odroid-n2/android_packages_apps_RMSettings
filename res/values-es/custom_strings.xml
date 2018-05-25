@@ -371,6 +371,7 @@
     <string name="smartbar_double_tap_sleep_summary">Doble toque para dormir en lugares vacíos</string>
 
     <string name="notification_sound_vib_screen_on_title">Notificaciones y vibración si la pantalla esta encendida</string>
+    <string name="notification_sound_vib_screen_on_summary">Reproducir sonidos y vibrar cuando la pantalla este encendida</string>
 
     <string name="force_ambient_for_media_pref_title">Teletipo Ambiente de música</string>
     <string name="force_ambient_for_media_pref_summary">Configurar el teletipo de música ambiente</string>
@@ -451,5 +452,17 @@
     <string name="chooser_activity_blacklist_cat_title">Lista negra</string>
     <string name="chooser_activity_blacklist_pref_title">Agregar aplicación</string>
     <string name="chooser_activity_blacklist_pref_summary">Toque aquí para agregar, toca en una agregada para eliminarla</string>
+     
+    <string name="lockscreen_clock_style_category_title">Estilo objetos pantalla de bloqueo</string>
+    <string name="lockscreen_clock_selection_title">Estilo de reloj</string>
+    <string name="lockscreen_clock_selection_digital">Defecto</string>
+    <string name="lockscreen_clock_selection_digital_bold">Digital (Negrita)</string>
+    <string name="lockscreen_clock_selection_analog">Analogo</string>
+    <string name="lockscreen_clock_selection_sammy">Sammy</string>
+    <string name="lockscreen_clock_selection_sammy_bold">Sammy (Negrita)</string>
+    <string name="lockscreen_date_selection_title">Estilo de fecha</string>
+    <string name="lockscreen_date_selection_default">Defecto</string>
+    <string name="lockscreen_date_selection_str_box">Caja semitransparente</string>
+    <string name="lockscreen_date_selection_str_round">Caja redondeada semitransparente</string>
 
 </resources>
