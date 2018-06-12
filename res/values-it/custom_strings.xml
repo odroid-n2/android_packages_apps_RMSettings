@@ -25,6 +25,7 @@
     <string name="volumerocker_settings_title">Volume e media</string>
     <string name="screen_settings_title">Display</string>
     <string name="other_settings_title">Altro</string>
+    <string name="other_menu_hints_footer">Controlla le opzioni dell\'app Telefono per ulteriori impostazioni relative alla telefonia come il vivavoce automatico</string>
     <string name="abc_leds">Luce LED</string>
     <string name="abc_battery_light_settings">Luce caricamento batteria</string>
     <string name="abc_notification_light_settings">Luce di notifica</string>
@@ -167,7 +168,7 @@
     <string name="slim_blacklist_add_apps_title">Aggiungi app</string>
     <string name="slim_blacklist_add_apps_summary">Tap qui per aggiungere, tap su un\'app aggiunta per rimuoverla</string>
 
-    <string name="slim_recents_hints_footer">Per rimuovere le app recenti, esegui un pinch-in sul pannello stesso. Per impedire che un\'app venga rimossa, premi a lungo sulla sua icona per salvarla come favorita.\n\nPer altre funzioni muovi o premi a lungo su una card</string>
+    <string name="slim_recents_hints_footer">Per rimuovere le app recenti, esegui un pinch-in sul pannello stesso. Per impedire che un\'app venga rimossa, premi a lungo sulla sua icona per salvarla come favorita.\n\nPer altre funzioni muovi o premi a lungo su una card.</string>
 
     <string name="notification_sound_vib_screen_on_title">Notifica sonora a schermo acceso</string>
     <string name="notification_sound_vib_screen_on_summary">Riproduci suono e vibrazione per le notifiche quando lo schermo è acceso</string>

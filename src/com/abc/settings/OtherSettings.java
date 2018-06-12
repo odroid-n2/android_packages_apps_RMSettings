@@ -81,6 +81,8 @@ public class OtherSettings extends SettingsPreferenceFragment implements
         mPackageAdapter = new ScreenshotEditPackageListAdapter(getActivity());
         mScreenshotEditAppPref = findPreference("screenshot_edit_app");
         mScreenshotEditAppPref.setOnPreferenceClickListener(this);
+
+        mFooterPreferenceMixin.createFooterPreference().setTitle(R.string.other_menu_hints_footer);
     }
 
     @Override
