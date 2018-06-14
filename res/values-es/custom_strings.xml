@@ -24,6 +24,7 @@
     <string name="power_settings_title">Botón de encendido</string>
     <string name="volumerocker_settings_title">Volumen y media</string>
     <string name="screen_settings_title">Pantalla</string>
+    <string name="other_menu_hints_footer">Revisa opciones para el marcador o relacionadas con telefonia como el altavoz automatico por proximidad</string>
     <string name="other_settings_title">Otros</string>
     <string name="abc_leds">Luz de Notificación</string>
     <string name="abc_battery_light_settings">Luz de carga de batería</string>
@@ -443,6 +444,7 @@
 
     <string name="incall_notifications_vibrate">Notificaciones de llamada menos molestas</string>
     <string name="incall_notifications_vibrate_summary">Vibrar en lugar de reproducir un sonido para las notificaciones en llamada</string>
+    
     <string name="screenshot_edit_app">Editor de capturas</string>
     <string name="screenshot_edit_app_summary">Selecciona el editor de imagenes para modificar las capturas</string>
     <string name="screenshot_edit_app_no_editor">Ningun editor disponible</string>
@@ -452,6 +454,8 @@
     <string name="chooser_activity_blacklist_cat_title">Lista negra</string>
     <string name="chooser_activity_blacklist_pref_title">Agregar aplicación</string>
     <string name="chooser_activity_blacklist_pref_summary">Toque aquí para agregar, toca en una agregada para eliminarla</string>
+     
+     <string name="color_picker_simple_dialog_title">Selecciona el color led</string>
      
     <string name="lockscreen_clock_style_category_title">Estilo objetos pantalla de bloqueo</string>
     <string name="lockscreen_clock_selection_title">Estilo de reloj</string>
