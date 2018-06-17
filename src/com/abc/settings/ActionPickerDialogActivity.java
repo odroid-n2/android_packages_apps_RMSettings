@@ -19,11 +19,6 @@
 
 package com.abc.settings;
 
-import com.android.internal.utils.du.ActionHandler;
-import com.android.internal.utils.du.Config.ActionConfig;
-import com.android.settings.R;
-import com.abc.settings.CustomActionListAdapter;
-
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -31,6 +26,11 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+
+import com.android.internal.utils.du.ActionHandler;
+import com.android.internal.utils.du.Config.ActionConfig;
+import com.android.settings.R;
+import com.abc.settings.CustomActionListAdapter;
 
 public class ActionPickerDialogActivity extends Activity implements
         ShortcutPickHelper.OnPickListener {

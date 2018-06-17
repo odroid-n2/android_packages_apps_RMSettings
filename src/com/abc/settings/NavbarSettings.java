@@ -15,23 +15,16 @@
  */
 package com.abc.settings;
 
-import java.util.ArrayList;
-
-import android.app.AlertDialog;
-import android.content.DialogInterface;
-import android.content.DialogInterface.OnClickListener;
-import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.UserHandle;
+import android.provider.Settings;
 import android.support.v7.preference.ListPreference;
 import android.support.v14.preference.SwitchPreference;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.PreferenceCategory;
 import android.support.v7.preference.Preference.OnPreferenceChangeListener;
-import android.provider.Settings;
 
-import com.android.settings.SettingsPreferenceFragment;
 import com.abc.settings.preferences.CustomSeekBarPreference;
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.internal.utils.du.ActionConstants;
@@ -39,6 +32,7 @@ import com.android.internal.utils.du.Config;
 import com.android.internal.utils.du.DUActionUtils;
 import com.android.internal.utils.du.Config.ButtonConfig;
 import com.android.settings.R;
+import com.android.settings.SettingsPreferenceFragment;
 
 public class NavbarSettings extends SettingsPreferenceFragment implements Preference.OnPreferenceChangeListener {
     private static final String NAVBAR_VISIBILITY = "navbar_visibility";

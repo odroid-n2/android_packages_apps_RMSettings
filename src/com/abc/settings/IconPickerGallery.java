@@ -17,12 +17,6 @@
 
 package com.abc.settings;
 
-import java.io.File;
-
-import com.android.internal.utils.du.ActionHandler;
-import com.android.internal.utils.du.DUActionUtils;
-import com.android.internal.utils.du.ImageHelper;
-
 import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Bitmap;
@@ -32,7 +26,12 @@ import android.os.Environment;
 import android.os.UserHandle;
 import android.widget.Toast;
 
+import com.android.internal.utils.du.ActionHandler;
+import com.android.internal.utils.du.DUActionUtils;
+import com.android.internal.utils.du.ImageHelper;
 import com.android.settings.R;
+
+import java.io.File;
 
 public class IconPickerGallery extends Activity {
     public static String TAG = IconPickerGallery.class.getSimpleName();

@@ -19,21 +19,19 @@
 
 package com.abc.settings;
 
-import java.io.File;
-
-import com.android.internal.utils.du.ImageHelper;
-
 import android.app.Activity;
 import android.app.Fragment;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.net.Uri;
 import android.os.Environment;
-import android.util.Log;
 import android.widget.Toast;
 
 import com.android.internal.utils.du.DUActionUtils;
+import com.android.internal.utils.du.ImageHelper;
 import com.android.settings.R;
+
+import java.io.File;
 
 public class IconPickHelper {
     private static final String TAG = "IconPickHelper";

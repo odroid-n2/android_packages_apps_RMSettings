@@ -16,15 +16,13 @@
 package com.abc.settings;
 
 import android.content.ContentResolver;
-import android.content.res.Resources;
 import android.os.Bundle;
 import android.os.UserHandle;
-import android.support.v7.preference.Preference;
 import android.provider.Settings;
+import android.support.v7.preference.Preference;
 
 import com.abc.settings.preferences.CustomSeekBarPreference;
 import com.android.internal.logging.nano.MetricsProto;
-
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 

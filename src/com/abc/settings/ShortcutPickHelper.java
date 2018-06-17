@@ -16,12 +16,6 @@
 
 package com.abc.settings;
 
-import java.net.URISyntaxException;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.List;
-
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;
@@ -42,6 +36,12 @@ import android.widget.TextView;
 
 import com.android.settings.R;
 import com.abc.settings.ShortcutPickHelper.AppExpandableAdapter.GroupInfo;
+
+import java.net.URISyntaxException;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
 
 public class ShortcutPickHelper {
 

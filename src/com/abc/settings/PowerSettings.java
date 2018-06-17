@@ -16,7 +16,6 @@
 package com.abc.settings;
 
 import android.content.ContentResolver;
-import android.content.res.Resources;
 import android.os.Bundle;
 import android.os.UserHandle;
 import android.support.v7.preference.ListPreference;
@@ -26,7 +25,6 @@ import android.provider.Settings;
 
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.internal.util.abc.AbcUtils;
-
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
