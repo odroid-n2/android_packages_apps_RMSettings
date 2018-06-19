@@ -178,7 +178,7 @@
 
     <string name="force_ambient_for_media_pref_title">Ambient music ticker</string>
     <string name="force_ambient_for_media_pref_summary">Configura l\'Ambient music ticker</string>
-    <string name="ambient_ticker_footer">Questa funzione permette di mostrare informazioni sulla traccia musicale riprodotta con una schermata Ambient Display.\n\nIn modalità normale aggiunge le informazioni alle normali schermate Ambient.\n\nIn modalità forzata mostra una nuova schermata Ambient minimale in caso di nuova traccia riprodotta anche se Ambient è disattivato.</string>
+    <string name="ambient_ticker_footer">Questa funzione mostra informazioni sulla traccia musicale riprodotta con una schermata Ambient Display.\n\nIn modalità normale aggiunge le informazioni alle schermate Ambient, in modalità forzata mostra una nuova schermata Ambient minimale in caso di nuova traccia riprodotta anche se Ambient è disattivato.\n\nUn doppio tap sulla traccia permette di passare alla successiva.</string>
     <string name="force_ambient_for_media_title">Seleziona modalità</string>
     <string name="force_ambient_for_media_off">Disattivata</string>
     <string name="force_ambient_for_media_on">Normale</string>
