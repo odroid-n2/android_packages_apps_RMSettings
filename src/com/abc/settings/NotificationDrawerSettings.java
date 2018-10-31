@@ -29,28 +29,11 @@ import com.android.settings.SettingsPreferenceFragment;
 public class NotificationDrawerSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
 
-    private ListPreference mTickerMode;
-    private ListPreference mAnnoyingNotification;
-
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.abc_notification_drawer_settings);
 
-        mTickerMode = (ListPreference) findPreference("ticker_mode");
-        mTickerMode.setOnPreferenceChangeListener(this);
-        int tickerMode = Settings.System.getIntForUser(getContentResolver(),
-                Settings.System.STATUS_BAR_SHOW_TICKER,
-                1, UserHandle.USER_CURRENT);
-        mTickerMode.setValue(String.valueOf(tickerMode));
-        mTickerMode.setSummary(mTickerMode.getEntry());
-
-        mAnnoyingNotification = (ListPreference) findPreference("less_notification_sounds");
-        mAnnoyingNotification.setOnPreferenceChangeListener(this);
-        int threshold = Settings.System.getIntForUser(getContentResolver(),
-                Settings.System.MUTE_ANNOYING_NOTIFICATIONS_THRESHOLD,
-                30000, UserHandle.USER_CURRENT);
-        mAnnoyingNotification.setValue(String.valueOf(threshold));
     }
 
     @Override
@@ -60,20 +43,6 @@ public class NotificationDrawerSettings extends SettingsPreferenceFragment imple
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         ContentResolver resolver = getActivity().getContentResolver();
-        if (preference.equals(mTickerMode)) {
-            int tickerMode = Integer.parseInt(((String) newValue).toString());
-            Settings.System.putIntForUser(getContentResolver(),
-                    Settings.System.STATUS_BAR_SHOW_TICKER, tickerMode, UserHandle.USER_CURRENT);
-            int index = mTickerMode.findIndexOfValue((String) newValue);
-            mTickerMode.setSummary(
-                    mTickerMode.getEntries()[index]);
-            return true;
-        } else if (preference.equals(mAnnoyingNotification)) {
-            int mode = Integer.parseInt(((String) newValue).toString());
-            Settings.System.putIntForUser(getContentResolver(),
-                    Settings.System.MUTE_ANNOYING_NOTIFICATIONS_THRESHOLD, mode, UserHandle.USER_CURRENT);
-            return true;
-        }
 
         return false;
     }
