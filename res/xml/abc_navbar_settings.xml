@@ -16,5 +16,15 @@
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceCategory
+        android:key="category_navbar_general"
+        android:title="@string/navbar_general_title" >
 
+        <Preference
+            android:key="pulse_settings"
+            android:title="@string/pulse_settings"
+            android:summary="@string/pulse_settings_summary"
+            android:fragment="com.abc.settings.PulseSettings" />
+
+    </PreferenceCategory>
 </PreferenceScreen>
