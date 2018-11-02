@@ -29,10 +29,18 @@ import com.android.settings.SettingsPreferenceFragment;
 public class NotificationDrawerSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
 
+    ListPreference mQuickPulldown;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.abc_notification_drawer_settings);
+
+        int qpmode = Settings.System.getIntForUser(getContentResolver(),
+                Settings.System.STATUS_BAR_QUICK_QS_PULLDOWN, 1, UserHandle.USER_CURRENT);
+        mQuickPulldown = (ListPreference) findPreference("status_bar_quick_qs_pulldown");
+        mQuickPulldown.setValue(String.valueOf(qpmode));
+        mQuickPulldown.setOnPreferenceChangeListener(this);
 
     }
 
@@ -43,6 +51,17 @@ public class NotificationDrawerSettings extends SettingsPreferenceFragment imple
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         ContentResolver resolver = getActivity().getContentResolver();
+
+        if (preference == mQuickPulldown) {
+            int value = Integer.parseInt((String) newValue);
+            Settings.System.putIntForUser(resolver,
+                    Settings.System.STATUS_BAR_QUICK_QS_PULLDOWN, value,
+                    UserHandle.USER_CURRENT);
+            int index = mQuickPulldown.findIndexOfValue((String) newValue);
+            mQuickPulldown.setSummary(
+                    mQuickPulldown.getEntries()[index]);
+            return true;
+        }
 
         return false;
     }
