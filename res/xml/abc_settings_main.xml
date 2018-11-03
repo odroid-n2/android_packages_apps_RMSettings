@@ -51,10 +51,10 @@
         android:key="abc_sys"
         android:title="@string/abc_sys">
 
-        <!--<Preference
+        <Preference
             android:key="abc_power_settings"
             android:fragment="com.abc.settings.PowerSettings"
-            android:title="@string/power_settings_title"/>-->
+            android:title="@string/power_settings_title"/>
 
         <Preference
             android:key="abc_volumerocker_settings"
