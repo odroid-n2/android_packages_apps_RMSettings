@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.abc.settings;
+package com.rms.settings;
 
 import android.content.ContentResolver;
 import android.content.res.Resources;
@@ -28,19 +28,19 @@ import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
-public class OtherSettings extends SettingsPreferenceFragment implements
+public class StatusBarSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        addPreferencesFromResource(R.xml.abc_other_settings);
+        addPreferencesFromResource(R.xml.statusbar_settings);
 
     }
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.ABC;
+        return MetricsProto.MetricsEvent.RMS;
     }
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {

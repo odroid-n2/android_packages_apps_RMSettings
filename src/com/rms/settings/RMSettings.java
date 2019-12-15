@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017 The ABC rom
+ * Copyright (C) 2017 ABC ROM
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -13,37 +13,28 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.abc.settings;
 
-import android.content.ContentResolver;
-import android.content.res.Resources;
+package com.rms.settings;
+
 import android.os.Bundle;
-import android.support.v7.preference.ListPreference;
-import android.support.v7.preference.Preference;
 import android.support.v7.preference.PreferenceScreen;
-import android.provider.Settings;
 
 import com.android.internal.logging.nano.MetricsProto;
 
-import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
-public class VolumeRockerSettings extends SettingsPreferenceFragment implements
-        Preference.OnPreferenceChangeListener {
+public class RMSettings extends SettingsPreferenceFragment {
 
     @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        addPreferencesFromResource(R.xml.abc_volumerocker_settings);
-
+    public void onCreate(Bundle icicle) {
+        super.onCreate(icicle);
+        addPreferencesFromResource(R.xml.settings_main);
+        PreferenceScreen prefScreen = getPreferenceScreen();
     }
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.ABC;
-    }
-
-    public boolean onPreferenceChange(Preference preference, Object newValue) {
-        return false;
+        return MetricsProto.MetricsEvent.RMS;
     }
 }
+

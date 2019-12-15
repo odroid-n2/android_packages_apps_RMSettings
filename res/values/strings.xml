@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2017 The ABC rom
+<!-- Copyright (C) 2017 ABC Rom
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -13,8 +13,10 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-
-<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
-
-</PreferenceScreen>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rms_settings_title">Additional ROM settings</string>
+    <string name="statusbar_settings_title">Status bar</string>
+    <string name="other_settings_title">Other</string>
+    <string name="recent_settings_title">Recents Panel</string>
+    <string name="navigationbar_settings_title">Navigation</string>
+</resources>
