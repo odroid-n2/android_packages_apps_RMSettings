@@ -15,8 +15,16 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="rms_settings_title">Additional ROM settings</string>
+    <string name="rms_interface">Interface</string>
     <string name="statusbar_settings_title">Status bar</string>
     <string name="other_settings_title">Other</string>
     <string name="recent_settings_title">Recents Panel</string>
     <string name="navigationbar_settings_title">Navigation</string>
+
+    <!-- Statusbar net monitor -->
+    <string name="network_traffic_state_title">Network traffic</string>
+    <string name="network_traffic_state_summary">Show net activity in statusbar</string>
+    <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
+    <string name="network_traffic_hidearrow">Hide arrows</string>
+    <string name="network_traffic_hidearrow_summary">Hide the network traffic indicator arrows</string>
 </resources>
