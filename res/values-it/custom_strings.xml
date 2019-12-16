@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2017 ABC Rom
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rms_settings_title">Impostazioni addizionali ROM</string>
+    <string name="rms_interface">Interfaccia</string>
+    <string name="statusbar_settings_title">Barra di stato</string>
+    <string name="other_settings_title">Altro</string>
+    <string name="recent_settings_title">Pannello Recenti</string>
+    <string name="navigationbar_settings_title">Navigazione</string>
+
+    <!-- Statusbar net monitor -->
+    <string name="network_traffic_state_title">Monitor di rete nella barra di stato</string>
+    <string name="network_traffic_state_summary">Visualizza attività di rete nella barra di stato</string>
+    <string name="network_traffic_autohide_threshold_title">Soglia monitor di rete (KB/s)</string>
+    <string name="network_traffic_hidearrow">Nascondi freccie</string>
+    <string name="network_traffic_hidearrow_summary">Nascondi freccie di indicazione del monitor di rete</string>
+</resources>
