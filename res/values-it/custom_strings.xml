@@ -22,6 +22,7 @@
     <string name="navigationbar_settings_title">Navigazione</string>
 
     <!-- Statusbar net monitor -->
+    <string name="cat_netmonitor">Monitor attività di rete</string>
     <string name="network_traffic_state_title">Monitor di rete nella barra di stato</string>
     <string name="network_traffic_state_summary">Visualizza attività di rete nella barra di stato</string>
     <string name="network_traffic_autohide_threshold_title">Soglia monitor di rete (KB/s)</string>
