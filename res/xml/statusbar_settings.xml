@@ -45,4 +45,17 @@
 
     </PreferenceCategory>
 
+    <PreferenceCategory
+        android:key="cat_clockdate"
+        android:title="@string/cat_clockdate">
+
+    <Preference
+        android:key="clock_settings"
+        android:title="@string/status_bar_clock"
+        android:icon="@drawable/ic_clockdate"
+        android:summary="@string/status_bar_clock_summary"
+        android:fragment="com.rms.settings.ClockDateSettings" />
+
+    </PreferenceCategory>
+
 </PreferenceScreen>
